@@ -1,0 +1,81 @@
+Altium Designer Pick and Place Locations
+C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Project Outputs for ME-TT-032\Pick Place for Flytta-32.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       04/10/20
+Time:       17:11
+Revision:   fe355d39307fbbbc58d45817fb57b2b9b8d250a5
+Variant:    No variations
+Units used: mil
+
+Designator Comment                Layer    Footprint            Center-X(mil) Center-Y(mil) Rotation Description              
+clk1       "24mhz Creatway clock" TopLayer 24mhz_creatway_clock -889.205      221.870       20       ""                       
+D5         "DIODE BLUE"           TopLayer Diode                -952.553      -516.702      124      "VLMW1500 -BLUE"         
+C80        1pF                    TopLayer Passive_(0402,_1005) -797.844      227.631       0        "Ceramic chip capacitor" 
+C81        1pF                    TopLayer Passive_(0402,_1005) -976.091      150.095       315      "Ceramic chip capacitor" 
+C72        3pf                    TopLayer Passive_(0402,_1005) -950.577      334.929       90       "Ceramic chip capacitor" 
+C71        1.6pf                  TopLayer Passive_(0402,_1005) -1007.080     343.520       225      "Ceramic chip capacitor" 
+C70        0.3pf                  TopLayer Passive_(0402,_1005) -1030.271     291.641       135      "Ceramic chip capacitor" 
+K3         "BQ51051 - VQFN"       TopLayer bq51051_-_vqfn       -1001.145     -652.396      315      ""                       
+R12        1.5K                   TopLayer PASSIVE_(0201,_0603) -1078.762     -310.542      130      Resistor                 
+R45        10K                    TopLayer PASSIVE_(0201,_0603) -927.759      -756.761      180      Resistor                 
+U2         MX25L3233F             TopLayer MX25L32              -1178.571     -416.760      130      ""                       
+R23        1K                     TopLayer PASSIVE_(0201,_0603) -1319.777     -307.571      90       Resistor                 
+R22        1K                     TopLayer PASSIVE_(0201,_0603) -1230.225     115.588       360      Resistor                 
+R21        1K                     TopLayer PASSIVE_(0201,_0603) -1289.361     88.834        90       Resistor                 
+R20        10K                    TopLayer PASSIVE_(0201,_0603) -1334.488     -426.158      320      Resistor                 
+D3         "DIODE WHITE"          TopLayer Diode                -490.204      -531.693      225      "VLMW1500 -WHITE"        
+D2         "DIODE WHITE"          TopLayer Diode                -536.481      -597.120      180      "VLMW1500 - RED"         
+D1         "DIODE RED"            TopLayer Diode                -882.225      -590.240      150      "VLMW1500 - WHITE"       
+C21        100NF                  TopLayer PASSIVE_(0201,_0603) -1358.600     -322.441      90       "Ceramic chip capacitor" 
+C52        0.022UF                TopLayer PASSIVE_(0201,_0603) -782.590      -719.569      360      "Ceramic chip capacitor" 
+C4         22UF                   TopLayer Passive_(0603,_1608) -421.323      -429.035      240      "Ceramic chip capacitor" 
+C86        6.8PF                  TopLayer Passive_(0402,_1005) -1109.320     67.630        180      "Ceramic chip capacitor" 
+C40        0.01UF                 TopLayer PASSIVE_(0201,_0603) -845.747      -708.661      360      "Ceramic chip capacitor" 
+C12        10UF                   TopLayer Passive_(0402,_1005) -452.475      -706.884      180      "Ceramic chip capacitor" 
+R9         4.7K                   TopLayer PASSIVE_(0201,_0603) -386.010      -463.364      90       Resistor                 
+U1         CC2640R2FRSMT          TopLayer RSM0032B             -1221.352     -33.968       270      CC26xx                   
+C15        1UF                    TopLayer PASSIVE_(0201,_0603) -1242.838     161.597       180      "Ceramic chip capacitor" 
+L8         2nH                    TopLayer Passive_(0402,_1005) -1157.950     87.470        90       Inductor                 
+C69        1.6pF                  TopLayer Passive_(0402,_1005) -1078.499     271.332       225      "Ceramic chip capacitor" 
+C50        0.47UF                 TopLayer PASSIVE_(0201,_0603) -677.069      -801.173      180      "Ceramic chip capacitor" 
+U6         MAX17043               TopLayer MAX17043             -421.323      -589.843      0        "I2C battery gauge"      
+R57        4.7K                   TopLayer PASSIVE_(0201,_0603) -475.139      -606.390      180      Resistor                 
+R56        150                    TopLayer PASSIVE_(0201,_0603) -475.111      -629.630      360      Resistor                 
+R54        1K                     TopLayer PASSIVE_(0201,_0603) -350.038      -602.087      270      Resistor                 
+C54        1UF                    TopLayer PASSIVE_(0201,_0603) -323.156      -565.941      360      "Ceramic chip capacitor" 
+C53        10NF                   TopLayer PASSIVE_(0201,_0603) -475.199      -653.020      180      "Ceramic chip capacitor" 
+C8         100NF                  TopLayer PASSIVE_(0201,_0603) -767.118      -669.441      90       "Ceramic chip capacitor" 
+U3         TPS6274X               TopLayer TPS6274              -641.952      -680.482      270      "Step down converter"    
+C11        10UF                   TopLayer Passive_(0402,_1005) -730.672      -673.760      270      "Ceramic chip capacitor" 
+L2         10uH                   TopLayer Passive_(0603,_1608) -775.760      -619.290      180      Inductor                 
+R47        3.83K                  TopLayer PASSIVE_(0201,_0603) -883.093      -797.489      360      Resistor                 
+R48        2.43K                  TopLayer PASSIVE_(0201,_0603) -1115.130     -237.175      180      Resistor                 
+R46        140                    TopLayer PASSIVE_(0201,_0603) -1101.971     -319.678      130      Resistor                 
+R44        100K                   TopLayer PASSIVE_(0201,_0603) -1114.909     -276.884      180      Resistor                 
+C49        0.47UF                 TopLayer PASSIVE_(0201,_0603) -873.895      -732.284      180      "Ceramic chip capacitor" 
+C48        0.022UF                TopLayer PASSIVE_(0201,_0603) -867.326      -760.442      360      "Ceramic chip capacitor" 
+C47        4.7UF                  TopLayer PASSIVE_(0201,_0603) -639.984      -745.675      360      "Ceramic chip capacitor" 
+C43        0.01UF                 TopLayer PASSIVE_(0201,_0603) -744.598      -745.675      360      "Ceramic chip capacitor" 
+C42        4.7UF                  TopLayer PASSIVE_(0201,_0603) -756.381      -769.565      360      "Ceramic chip capacitor" 
+C41        0.022UF                TopLayer PASSIVE_(0201,_0603) -756.381      -807.087      360      "Ceramic chip capacitor" 
+a1         "NN01-104 - fractus"   TopLayer fractus-chip-antenna -718.110      375.197       0        NN01-104                 
+U4         LSM9DS1                TopLayer LSM9DS1              -253.309      -429.111      0        "9DOF, Accel, Gyro, Mag" 
+C23        10UF                   TopLayer Passive_(0402,_1005) -227.915      -311.300      270      "Ceramic chip capacitor" 
+C22        100NF                  TopLayer PASSIVE_(0201,_0603) -193.982      -329.439      270      "Ceramic chip capacitor" 
+C14        10NF                   TopLayer PASSIVE_(0201,_0603) -161.550      -329.439      270      "Ceramic chip capacitor" 
+C10        100NF                  TopLayer PASSIVE_(0201,_0603) -362.827      -389.980      180      "Ceramic chip capacitor" 
+C9         100NF                  TopLayer PASSIVE_(0201,_0603) -298.790      -331.111      270      "Ceramic chip capacitor" 
+R10        4.7K                   TopLayer PASSIVE_(0201,_0603) -333.079      -537.470      360      Resistor                 
+R8         102K                   TopLayer PASSIVE_(0201,_0603) -1201.513     -168.945      360      Resistor                 
+L1         10uH                   TopLayer Passive_(0603,_1608) -1297.429     -188.933      270      Inductor                 
+C16        100NF                  TopLayer PASSIVE_(0201,_0603) -1209.997     -209.731      90       "Ceramic chip capacitor" 
+C3         100NF                  TopLayer PASSIVE_(0201,_0603) -1095.080     -41.842       180      "Ceramic chip capacitor" 
+C2         100NF                  TopLayer Passive_(0402,_1005) -1082.217     34.185        180      "Ceramic chip capacitor" 
+C1         10UF                   TopLayer Passive_(0402,_1005) -1339.306     -191.962      270      "Ceramic chip capacitor" 
+C7         10UF                   TopLayer Passive_(0402,_1005) -1247.303     -233.765      90       "Ceramic chip capacitor" 
+C6         100NF                  TopLayer PASSIVE_(0201,_0603) -1099.256     -72.120       180      "Ceramic chip capacitor" 
+C5         100NF                  TopLayer PASSIVE_(0201,_0603) -1262.574     138.484       180      "Ceramic chip capacitor" 
+C79        1.3pF                  TopLayer Passive_(0402,_1005) -1138.079     131.761       180      "Ceramic chip capacitor" 

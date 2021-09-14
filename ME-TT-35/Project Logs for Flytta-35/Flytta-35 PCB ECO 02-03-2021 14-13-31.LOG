@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GPIO_1 Pin=U1-9
+Change Component Comment : Designator=U2 Old Comment=MX25L3233F New Comment=MX25L6433FZNI-08G
+Added Pin To Net: NetName=RX Pin=U1-9
+Added Net: Name=RX

@@ -1,0 +1,242 @@
+Removed Pin From Net: NetName=NetC69_2 Pin=C79-1
+Removed Pin From Net: NetName=GND Pin=C79-2
+Removed Pin From Net: NetName=X24M_P Pin=C80-1
+Removed Pin From Net: NetName=GND Pin=C80-2
+Removed Pin From Net: NetName=RF_P Pin=C86-1
+Removed Pin From Net: NetName=GND Pin=C86-2
+Removed Pin From Net: NetName=GND Pin=L6-2
+Removed Pin From Net: NetName=NetC69_2 Pin=L8-1
+Removed Pin From Net: NetName=RF_P Pin=L8-2
+Removed Pin From Net: NetName=GND Pin=L11-2
+Removed Pin From Net: NetName=GND Pin=L12-2
+Removed Pin From Net: NetName=X24M_N Pin=Y1-1
+Removed Pin From Net: NetName=GND Pin=Y1-2
+Removed Pin From Net: NetName=X24M_P Pin=Y1-3
+Removed Pin From Net: NetName=GND Pin=Y1-4
+Change Component Comment : Designator=C79 Old Comment=1.3pf New Comment=1pF
+Change Component Comment : Designator=C69 Old Comment=1.6pF New Comment=12pF
+Change Component Comment : Designator=L10 Old Comment=10nh New Comment=10mH
+Change component parameters: Designator = "C1" ("C1"); Footprint = "Passive (0402, 1005)"; UniqueID = "\SMXFDIOK" ("\SMXFDIOK")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C2" ("C2"); Footprint = "Passive (0402, 1005)"; UniqueID = "\SFWRSPDU" ("\SFWRSPDU")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C3" ("C3"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\INNJFEVH" ("\INNJFEVH")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C4" ("C4"); Footprint = "Passive (0603, 1608)"; UniqueID = "\LNPGKIUR" ("\LNPGKIUR")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C5" ("C5"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\RMLRDONT" ("\RMLRDONT")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C6" ("C6"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\ALEAVHQQ" ("\ALEAVHQQ")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C7" ("C7"); Footprint = "Passive (0402, 1005)"; UniqueID = "\UPRMIICA" ("\UPRMIICA")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C8" ("C8"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\QKTCHUJY" ("\QKTCHUJY")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C9" ("C9"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\WKJCHTHR" ("\WKJCHTHR")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C10" ("C10"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\ABVPLXVU" ("\ABVPLXVU")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C11" ("C11"); Footprint = "Passive (0402, 1005)"; UniqueID = "\QYCJBFCE" ("\QYCJBFCE")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C12" ("C12"); Footprint = "Passive (0402, 1005)"; UniqueID = "\WTSSWLOW" ("\WTSSWLOW")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C14" ("C14"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\KERSIKIN" ("\KERSIKIN")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C15" ("C15"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\PPKRVWFA" ("\PPKRVWFA")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C16" ("C16"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\QTEHNTQA" ("\QTEHNTQA")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C21" ("C21"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\GALWEVHV" ("\GALWEVHV")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C22" ("C22"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\WUMUBRDI" ("\WUMUBRDI")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C23" ("C23"); Footprint = "Passive (0402, 1005)"; UniqueID = "\QEXIHNEV" ("\QEXIHNEV")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C40" ("C40"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\HBTYCLIY" ("\HBTYCLIY")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C41" ("C41"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\EVPELQAU" ("\EVPELQAU")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C42" ("C42"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\WVOQWYHU" ("\WVOQWYHU")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C43" ("C43"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\HGRYUVPJ" ("\HGRYUVPJ")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C47" ("C47"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\AHXWDXVC" ("\AHXWDXVC")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C48" ("C48"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\NNWMCKAS" ("\NNWMCKAS")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C49" ("C49"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\VNYCLYQH" ("\VNYCLYQH")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C50" ("C50"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\QXSRQJVM" ("\QXSRQJVM")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C52" ("C52"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\KESXFYYA" ("\KESXFYYA")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C53" ("C53"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\HIXGOPKO" ("\HIXGOPKO")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C54" ("C54"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\DJLTOVTB" ("\DJLTOVTB")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C69" ("C69"); Footprint = "Passive (0402, 1005)"; UniqueID = "\KUVDXQGE" ("\KUVDXQGE")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C79" ("C79"); Footprint = "Passive (0402, 1005)"; UniqueID = "\WHUVXCPC" ("\WHUVXCPC")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C80" ("C80"); Footprint = "Passive (0402, 1005)"; UniqueID = "\XQAUPUNB" ("\XQAUPUNB")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C81" ("C81"); Footprint = "Passive (0402, 1005)"; UniqueID = "\XDFZWMQS" ("\XDFZWMQS")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C86" ("C86"); Footprint = "Passive (0402, 1005)"; UniqueID = "\JCHAVTOC" ("\JCHAVTOC")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R8" ("R8"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\OINGMWAU" ("\OINGMWAU")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R9" ("R9"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\QAXBHMPJ" ("\QAXBHMPJ")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R10" ("R10"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\JCBQKMJL" ("\JCBQKMJL")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R12" ("R12"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\ZKXBKMNC" ("\ZKXBKMNC")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R20" ("R20"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\NMSFAERM" ("\NMSFAERM")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R21" ("R21"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\KBXQYSZG" ("\KBXQYSZG")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R22" ("R22"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\GXSIBQOY" ("\GXSIBQOY")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R23" ("R23"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\TNWIFYPL" ("\TNWIFYPL")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R44" ("R44"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\PQLSJHCL" ("\PQLSJHCL")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R45" ("R45"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\KJAYWGKH" ("\KJAYWGKH")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R46" ("R46"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\LQCQXEVO" ("\LQCQXEVO")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R47" ("R47"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\TTJMKWJO" ("\TTJMKWJO")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R48" ("R48"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\SVBURUTD" ("\SVBURUTD")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R54" ("R54"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\UPDOOLVW" ("\UPDOOLVW")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R56" ("R56"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\FWVLTQUX" ("\FWVLTQUX")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R57" ("R57"); Footprint = "PASSIVE (0201, 0603)"; UniqueID = "\RXHDDFOA" ("\RXHDDFOA")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "U4" ("U4"); Footprint = "LSM9DS1"; UniqueID = "\NIXNYWYO" ("\NIXNYWYO")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Good"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Microchip"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "MCP73871-3CAI/ML"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "QFN-20 Microchip"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "1.56 USD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "L1" ("L1"); Footprint = "Passive (0603, 1608)"; UniqueID = "\ONQOYQEU" ("\ONQOYQEU")
+Change component parameters (AddParameter): Name = "Code_IEC"; Value = "1005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEITA"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Chip Inductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "0402-A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10mH"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L2" ("L2"); Footprint = "Passive (0603, 1608)"; UniqueID = "\JKGACIJP" ("\JKGACIJP")
+Change component parameters (AddParameter): Name = "Code_IEC"; Value = "1005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEITA"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Chip Inductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "0402-A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10mH"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L6" ("L6"); Footprint = "Passive (0402, 1005)"; UniqueID = "\GUCVNFQX" ("\GUCVNFQX")
+Change component parameters (AddParameter): Name = "Code_IEC"; Value = "1005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEITA"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Chip Inductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "0402-A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10mH"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L8" ("L8"); Footprint = "Passive (0402, 1005)"; UniqueID = "\ESCSLMAH" ("\ESCSLMAH")
+Change component parameters (AddParameter): Name = "Code_IEC"; Value = "1005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEITA"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Chip Inductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "0402-A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10mH"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L10" ("L10"); Footprint = "Passive (0402, 1005)"; UniqueID = "\FDQLWYYL" ("\FDQLWYYL")
+Change component parameters (AddParameter): Name = "Code_IEC"; Value = "1005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEITA"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Chip Inductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "0402-A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10mH"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L11" ("L11"); Footprint = "Passive (0402, 1005)"; UniqueID = "\ESTKCSTF" ("\ESTKCSTF")
+Change component parameters (AddParameter): Name = "Code_IEC"; Value = "1005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEITA"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Chip Inductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "0402-A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10mH"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L12" ("L12"); Footprint = "Passive (0402, 1005)"; UniqueID = "\FRYLFWAQ" ("\FRYLFWAQ")
+Change component parameters (AddParameter): Name = "Code_IEC"; Value = "1005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEITA"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Chip Inductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "0402-A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10mH"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1" ("U1"); Footprint = "RSM0032B"; UniqueID = "\PQHMDOLH" ("\PQHMDOLH")
+Change component parameters (AddParameter): Name = "Alternate PartNumber"; Value = "CC2650F128RSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Application_BuildNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CompType"; Value = "IC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MountType"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "RSM0032B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "CC2650F128RSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PIN_COUNT"; Value = "33"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=clk1(24mhz creatway clock)
+Added Pin To Net: NetName=NetC69_1 Pin=C69-1
+Added Pin To Net: NetName=GND Pin=C79-1
+Added Pin To Net: NetName=NetC69_2 Pin=C79-2
+Added Pin To Net: NetName=GND Pin=C80-1
+Added Pin To Net: NetName=GND Pin=C86-1
+Added Pin To Net: NetName=RF_P Pin=C86-2
+Added Pin To Net: NetName=X24M_N Pin=clk1-1
+Added Pin To Net: NetName=GND Pin=clk1-2
+Added Pin To Net: NetName=GND Pin=clk1-4
+Added Pin To Net: NetName=RF_P Pin=L8-1
+Added Pin To Net: NetName=NetC69_2 Pin=L8-2
+Added Pin To Net: NetName=NetC69_1 Pin=L10-1
+Added Pin To Net: NetName=GND Pin=L11-1
+Added Pin To Net: NetName=NetC69_1 Pin=L11-2
+Added Pin To Net: NetName=GND Pin=L12-1
+Added Pin To Net: NetName=Net*_1 Pin=L6-2
+Added Pin To Net: NetName=Net*_1 Pin=L10-2
+Added Pin To Net: NetName=Net*_1 Pin=L12-2
+Added Net: Name=Net*_1
+Added Pin To Net: NetName=NetC80_2 Pin=C80-2
+Added Pin To Net: NetName=NetC80_2 Pin=clk1-3
+Added Net: Name=NetC80_2
+Change Class Name : Old Net Name=Flytta-32 New Net Name=Flytta-33
+Added Member To Class: ClassName=Flytta-33 Member=Component C69 12pF
+Added Member To Class: ClassName=Flytta-33 Member=Component C80 1pF
+Added Member To Class: ClassName=Flytta-33 Member=Component C81 1pF
+Added Member To Class: ClassName=Flytta-33 Member=Component C86 6.8PF
+Added Member To Class: ClassName=Flytta-33 Member=Component clk1 24mhz Creatway clock
+Added Member To Class: ClassName=Flytta-33 Member=Component D5 DIODE BLUE
+Added Member To Class: ClassName=Flytta-33 Member=Component L6 10nH
+Added Member To Class: ClassName=Flytta-33 Member=Component L8 2nH
+Added Member To Class: ClassName=Flytta-33 Member=Component L10 10mH
+Added Member To Class: ClassName=Flytta-33 Member=Component L11 10nh
+Added Member To Class: ClassName=Flytta-33 Member=Component L12 10nH

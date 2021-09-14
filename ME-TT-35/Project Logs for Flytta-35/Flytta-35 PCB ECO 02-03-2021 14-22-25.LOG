@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=D2-1
+Removed Member From Class: ClassName=Flytta-35 Member=D2
+Removed Member From Class: ClassName=Flytta-35 Member=R22
+Added Pin To Net: NetName=GPIO_1 Pin=U1-8
+Added Member To Class: ClassName=Flytta-35 Member=Component D1 DIODE RED
+Added Member To Class: ClassName=Flytta-35 Member=Component R21 1K

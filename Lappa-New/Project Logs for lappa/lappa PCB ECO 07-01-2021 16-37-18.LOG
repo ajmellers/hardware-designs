@@ -1,0 +1,107 @@
+Removed Pin From Net: NetName=X24M_P Pin=C80-2
+Removed Pin From Net: NetName=X24M_P Pin=clk1-
+Removed Pin From Net: NetName=GND Pin=U1-V1
+Removed Pin From Net: NetName=GND Pin=U1-V2
+Removed Pin From Net: NetName=GND Pin=U1-V3
+Removed Pin From Net: NetName=GND Pin=U1-V4
+Removed Pin From Net: NetName=GND Pin=U1-V5
+Change Component Footprint: Designator=L6 Old Footprint=Passive (0402, 1005) New Footprint=Passive (0603, 1608)
+Change Component Footprint: Designator=L10 Old Footprint=Passive (0402, 1005) New Footprint=Passive (0603, 1608)
+Change Component Footprint: Designator=L11 Old Footprint=Passive (0402, 1005) New Footprint=Passive (0603, 1608)
+Change Component Footprint: Designator=L12 Old Footprint=Passive (0402, 1005) New Footprint=Passive (0603, 1608)
+Change Component Comment : Designator=U2 Old Comment=MX25R6435FZNIL0 New Comment=MX25L3233F
+Added Component: Designator=c60(Passive (0402, 1005))
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C61(Passive (0402, 1005))
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C62(Passive (0402, 1005))
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C63(Passive (0402, 1005))
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C64(Passive (0402, 1005))
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C65(Passive (0402, 1005))
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C66(Passive (0402, 1005))
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C67(Passive (0402, 1005))
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C68(Passive (0402, 1005))
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C69(Passive (0402, 1005))
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=L7(Passive (0603, 1608))
+Add component (AddParameter): Name = "Code_IEC"; Value = "1005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEITA"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Inductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "0402-A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10mH"; VariantName = "[No Variations]"
+Added Component: Designator=L9(Passive (0603, 1608))
+Add component (AddParameter): Name = "Code_IEC"; Value = "1005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEITA"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Inductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "0402-A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10mH"; VariantName = "[No Variations]"
+Added Component: Designator=U9(TPS6274)
+Added Pin To Net: NetName=GND Pin=c60-2
+Added Pin To Net: NetName=GND Pin=C61-1
+Added Pin To Net: NetName=VDD Pin=C61-2
+Added Pin To Net: NetName=GND Pin=C62-1
+Added Pin To Net: NetName=GND Pin=C63-1
+Added Pin To Net: NetName=GND Pin=C64-1
+Added Pin To Net: NetName=GND Pin=C65-1
+Added Pin To Net: NetName=GND Pin=C66-1
+Added Pin To Net: NetName=GND Pin=C67-1
+Added Pin To Net: NetName=VDD Pin=C67-2
+Added Pin To Net: NetName=CHG Pin=C68-1
+Added Pin To Net: NetName=GND Pin=C69-1
+Added Pin To Net: NetName=VDD Pin=C69-2
+Added Pin To Net: NetName=VDD Pin=L7-1
+Added Pin To Net: NetName=VDD Pin=U9-1
+Added Pin To Net: NetName=GND Pin=U9-3
+Added Pin To Net: NetName=GND Pin=U9-3
+Added Pin To Net: NetName=CHG Pin=U9-4
+Added Pin To Net: NetName=GND Pin=U9-8
+Added Pin To Net: NetName=GND Pin=U9-9
+Added Pin To Net: NetName=GND Pin=U9-10
+Added Pin To Net: NetName=GND Pin=U9-11
+Added Pin To Net: NetName=VDD Pin=U9-12
+Added Pin To Net: NetName=1V8 Pin=C63-2
+Added Pin To Net: NetName=1V8 Pin=C64-2
+Added Pin To Net: NetName=1V8 Pin=C68-2
+Added Pin To Net: NetName=1V8 Pin=L9-2
+Added Pin To Net: NetName=1V8 Pin=U9-5
+Added Net: Name=1V8
+Added Pin To Net: NetName=5V Pin=c60-1
+Added Pin To Net: NetName=5V Pin=C65-2
+Added Pin To Net: NetName=5V Pin=C66-2
+Added Net: Name=5V
+Added Pin To Net: NetName=NetC62_2 Pin=C62-2
+Added Net: Name=NetC62_2
+Added Pin To Net: NetName=NetL7_2 Pin=L7-2
+Added Net: Name=NetL7_2
+Added Pin To Net: NetName=NetL9_1 Pin=L9-1
+Added Pin To Net: NetName=NetL9_1 Pin=U9-2
+Added Net: Name=NetL9_1
+Change Class Name : Old Net Name=Flytta-33 New Net Name=lappa
+Added Member To Class: ClassName=lappa Member=Component c60 4.7UF
+Added Member To Class: ClassName=lappa Member=Component C61 2.2UF
+Added Member To Class: ClassName=lappa Member=Component C62 1UF
+Added Member To Class: ClassName=lappa Member=Component C63 0.1UF
+Added Member To Class: ClassName=lappa Member=Component C64 4.7UF
+Added Member To Class: ClassName=lappa Member=Component C65 0.1UF
+Added Member To Class: ClassName=lappa Member=Component C66 10UF
+Added Member To Class: ClassName=lappa Member=Component C67 10UF
+Added Member To Class: ClassName=lappa Member=Component C68 10UF
+Added Member To Class: ClassName=lappa Member=Component C69 0.1uF
+Added Member To Class: ClassName=lappa Member=Component L7 1UH
+Added Member To Class: ClassName=lappa Member=Component L9 10uH
+Added Member To Class: ClassName=lappa Member=Component U9 TPS6274X

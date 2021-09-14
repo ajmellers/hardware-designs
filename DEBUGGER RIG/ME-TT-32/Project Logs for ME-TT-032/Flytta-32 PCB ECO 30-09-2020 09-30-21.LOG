@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=GND Pin=C80-2
+Removed Pin From Net: NetName=X24M_N Pin=Y1_1-1
+Removed Pin From Net: NetName=GND Pin=Y1_1-2
+Removed Pin From Net: NetName=X24M_P Pin=Y1_1-3
+Removed Pin From Net: NetName=GND Pin=Y1_1-4
+Change component parameters: Designator = "C80" ("C80"); Footprint = "Passive (0402, 1005)"; UniqueID = "\FHXAVYOF" ("\FHXAVYOF")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C81" ("C81"); Footprint = "Passive (0402, 1005)"; UniqueID = "\MDEOTSMN" ("\MDEOTSMN")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=clk1(24mhz creatway clock)
+Added Pin To Net: NetName=X24M_N Pin=clk1-1
+Added Pin To Net: NetName=NetC80_2 Pin=C80-2
+Added Pin To Net: NetName=NetC80_2 Pin=clk1-2
+Added Net: Name=NetC80_2
+Added Member To Class: ClassName=Flytta-32 Member=Component C80 1pf
+Added Member To Class: ClassName=Flytta-32 Member=Component C81 1pf
+Added Member To Class: ClassName=Flytta-32 Member=Component clk1 24mhz Creatway clock
+Added Member To Class: ClassName=Flytta-32 Member=Component D5 DIODE BLUE

@@ -1,0 +1,28 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [ME-TT-032.PrjPcb]
+   Generated File[Flytta-32.GTO]
+   Generated File[Flytta-32.GTP]
+   Generated File[Flytta-32.GTS]
+   Generated File[Flytta-32.GTL]
+   Generated File[Flytta-32.GP1]
+   Generated File[Flytta-32.GP2]
+   Generated File[Flytta-32.GBL]
+   Generated File[Flytta-32.GBS]
+   Generated File[Flytta-32.GBP]
+   Generated File[Flytta-32.GBO]
+   Generated File[Flytta-32.GM1]
+   Generated File[Flytta-32.GM15]
+   Generated File[Flytta-32.GM13]
+   Generated File[Flytta-32.GKO]
+   Generated File[Flytta-32.GPT]
+   Generated File[Flytta-32.GPB]
+   Generated File[Flytta-32.RUL]
+   Generated File[Flytta-32.EXTREP]
+   Generated File[Flytta-32.REP]
+
+
+Files Generated   : 19
+Documents Printed : 0
+
+Finished Output Generation At 12:22:55 On 11/11/2020

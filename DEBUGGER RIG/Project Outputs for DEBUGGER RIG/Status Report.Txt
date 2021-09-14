@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [DEBUGGER RIG.PrjPcb]
+   Generated File[DEBUGGER RIG.TXT]
+   Generated File[DEBUGGER RIG.LDP]
+   Generated File[DEBUGGER RIG.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 11:58:56 On 27/07/2021

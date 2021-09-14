@@ -1,0 +1,5 @@
+Added Component: Designator=clk1(24mhz creatway clock)
+Added Pin To Net: NetName=X24M_N Pin=clk1-1
+Added Pin To Net: NetName=NetC80_2 Pin=clk1-2
+Added Pin To Net: NetName=GND Pin=clk1-4
+Added Member To Class: ClassName=Flytta-32 Member=Component clk1 24mhz Creatway clock

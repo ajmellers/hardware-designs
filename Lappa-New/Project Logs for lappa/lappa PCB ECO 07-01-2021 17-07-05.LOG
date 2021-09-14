@@ -1,0 +1,29 @@
+Added Component: Designator=U7(TPS64121)
+Added Component: Designator=U8(MAX86160)
+Added Component: Designator=U10(MAX30102)
+Added Pin To Net: NetName=GND Pin=U7-1
+Added Pin To Net: NetName=5V Pin=U7-2
+Added Pin To Net: NetName=5V Pin=U7-3
+Added Pin To Net: NetName=VDD Pin=U7-4
+Added Pin To Net: NetName=NetL7_2 Pin=U7-5
+Added Pin To Net: NetName=VDD Pin=U7-6
+Added Pin To Net: NetName=GND Pin=U7-7
+Added Pin To Net: NetName=3V3_SDA Pin=U8-6
+Added Pin To Net: NetName=3V3_SCLK Pin=U8-7
+Added Pin To Net: NetName=1V8 Pin=U8-11
+Added Pin To Net: NetName=5V Pin=U8-12
+Added Pin To Net: NetName=GND Pin=U8-13
+Added Pin To Net: NetName=GND Pin=U8-14
+Added Pin To Net: NetName=NetC62_2 Pin=U8-15
+Added Pin To Net: NetName=VDD Pin=U10-1
+Added Pin To Net: NetName=VDD Pin=U10-2
+Added Pin To Net: NetName=VDD Pin=U10-3
+Added Pin To Net: NetName=GND Pin=U10-4
+Added Pin To Net: NetName=GND Pin=U10-5
+Added Pin To Net: NetName=GND Pin=U10-6
+Added Pin To Net: NetName=3V3_SDA Pin=U10-8
+Added Pin To Net: NetName=3V3_SCLK Pin=U10-9
+Added Member To Class: ClassName=lappa Member=Component C69 12pF
+Added Member To Class: ClassName=lappa Member=Component U7 TPS61241
+Added Member To Class: ClassName=lappa Member=Component U8 MAX86160
+Added Member To Class: ClassName=lappa Member=Component U10 MAX30208

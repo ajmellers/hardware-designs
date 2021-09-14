@@ -1,0 +1,83 @@
+Removed Pin From Net: NetName=GND Pin=C70-1
+Removed Pin From Net: NetName=NetC69_1 Pin=C70-2
+Removed Member From Class: ClassName=Flytta-34-old-ant Member=C70
+Added Component: Designator=L9(Passive (0402, 1005))
+Add component (AddParameter): Name = "Code_IEC"; Value = "1005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEITA"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Inductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "0402-A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10mH"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=L9-1
+Added Pin To Net: NetName=NetC69_1 Pin=L9-2
+Change Net Name : Old Net Name=Net?_2 New Net Name=NetC45_1
+Change Class Name : Old Net Name=Flytta-34-old-ant New Net Name=Flytta-35
+Added Member To Class: ClassName=Flytta-35 Member=Component C1 10UF
+Added Member To Class: ClassName=Flytta-35 Member=Component C2 100NF
+Added Member To Class: ClassName=Flytta-35 Member=Component C3 100NF
+Added Member To Class: ClassName=Flytta-35 Member=Component C4 22UF
+Added Member To Class: ClassName=Flytta-35 Member=Component C5 100NF
+Added Member To Class: ClassName=Flytta-35 Member=Component C6 100NF
+Added Member To Class: ClassName=Flytta-35 Member=Component C7 10UF
+Added Member To Class: ClassName=Flytta-35 Member=Component C8 100NF
+Added Member To Class: ClassName=Flytta-35 Member=Component C11 10UF
+Added Member To Class: ClassName=Flytta-35 Member=Component C12 10UF
+Added Member To Class: ClassName=Flytta-35 Member=Component C15 1UF
+Added Member To Class: ClassName=Flytta-35 Member=Component C16 100NF
+Added Member To Class: ClassName=Flytta-35 Member=Component C21 100NF
+Added Member To Class: ClassName=Flytta-35 Member=Component C40 0.01UF
+Added Member To Class: ClassName=Flytta-35 Member=Component C41 0.022UF
+Added Member To Class: ClassName=Flytta-35 Member=Component C42 4.7UF
+Added Member To Class: ClassName=Flytta-35 Member=Component C43 0.01UF
+Added Member To Class: ClassName=Flytta-35 Member=Component C45 22pF
+Added Member To Class: ClassName=Flytta-35 Member=Component C46 22pF
+Added Member To Class: ClassName=Flytta-35 Member=Component C47 4.7UF
+Added Member To Class: ClassName=Flytta-35 Member=Component C48 0.022UF
+Added Member To Class: ClassName=Flytta-35 Member=Component C49 0.47UF
+Added Member To Class: ClassName=Flytta-35 Member=Component C50 0.47UF
+Added Member To Class: ClassName=Flytta-35 Member=Component C52 0.022UF
+Added Member To Class: ClassName=Flytta-35 Member=Component C53 10NF
+Added Member To Class: ClassName=Flytta-35 Member=Component C54 1UF
+Added Member To Class: ClassName=Flytta-35 Member=Component C55 0.1uf
+Added Member To Class: ClassName=Flytta-35 Member=Component C61 0.1uf
+Added Member To Class: ClassName=Flytta-35 Member=Component C69 1.6pF
+Added Member To Class: ClassName=Flytta-35 Member=Component C79 1.3pF
+Added Member To Class: ClassName=Flytta-35 Member=Component C80 1pf
+Added Member To Class: ClassName=Flytta-35 Member=Component C81 1pf
+Added Member To Class: ClassName=Flytta-35 Member=Component C86 6.8PF
+Added Member To Class: ClassName=Flytta-35 Member=Component clk1 24mhz Creatway clock
+Added Member To Class: ClassName=Flytta-35 Member=Component clk2 ABS07-32.768KHZ-7-T
+Added Member To Class: ClassName=Flytta-35 Member=Component D1 DIODE RED
+Added Member To Class: ClassName=Flytta-35 Member=Component D2 DIODE WHITE
+Added Member To Class: ClassName=Flytta-35 Member=Component D3 DIODE WHITE
+Added Member To Class: ClassName=Flytta-35 Member=Component D5 DIODE BLUE
+Added Member To Class: ClassName=Flytta-35 Member=Component L1 10uH
+Added Member To Class: ClassName=Flytta-35 Member=Component L2 10uH
+Added Member To Class: ClassName=Flytta-35 Member=Component L8 2nH
+Added Member To Class: ClassName=Flytta-35 Member=Component L9 20nH
+Added Member To Class: ClassName=Flytta-35 Member=Component R8 102K
+Added Member To Class: ClassName=Flytta-35 Member=Component R9 4.7K
+Added Member To Class: ClassName=Flytta-35 Member=Component R10 4.7K
+Added Member To Class: ClassName=Flytta-35 Member=Component R11 10K
+Added Member To Class: ClassName=Flytta-35 Member=Component R12 1.5K
+Added Member To Class: ClassName=Flytta-35 Member=Component R20 10K
+Added Member To Class: ClassName=Flytta-35 Member=Component R21 1K
+Added Member To Class: ClassName=Flytta-35 Member=Component R22 1K
+Added Member To Class: ClassName=Flytta-35 Member=Component R23 1K
+Added Member To Class: ClassName=Flytta-35 Member=Component R44 100K
+Added Member To Class: ClassName=Flytta-35 Member=Component R45 10K
+Added Member To Class: ClassName=Flytta-35 Member=Component R46 140
+Added Member To Class: ClassName=Flytta-35 Member=Component R47 3.83K
+Added Member To Class: ClassName=Flytta-35 Member=Component R48 2.43K
+Added Member To Class: ClassName=Flytta-35 Member=Component R49 10K
+Added Member To Class: ClassName=Flytta-35 Member=Component R50 10K
+Added Member To Class: ClassName=Flytta-35 Member=Component R54 1K
+Added Member To Class: ClassName=Flytta-35 Member=Component R56 150
+Added Member To Class: ClassName=Flytta-35 Member=Component R57 4.7K
+Added Member To Class: ClassName=Flytta-35 Member=Component U1 CC2640R2FRSMT
+Added Member To Class: ClassName=Flytta-35 Member=Component U3 TPS6274X
+Added Member To Class: ClassName=Flytta-35 Member=Component U7 BNO055
+Added Room: Name=Flytta-35

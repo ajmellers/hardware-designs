@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=NetC80_2 Pin=C80-2
+Added Net: Name=NetC80_2
+Added Member To Class: ClassName=lappa Member=Component C69 12pF

@@ -1,0 +1,10 @@
+Change Component Footprint: Designator=C71 Old Footprint=RAD-0.3 New Footprint=Passive (0402, 1005)
+Change Component Footprint: Designator=C72 Old Footprint=RAD-0.3 New Footprint=Passive (0402, 1005)
+Change Component Comment : Designator=C71 Old Comment=Cap New Comment=1.6pf
+Change Component Comment : Designator=C72 Old Comment=Cap New Comment=3pf
+Change component parameters: Designator = "C71" ("C71"); Footprint = "RAD-0.3"; UniqueID = "\MRFHMHVY" ("\MRFHMHVY")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C72" ("C72"); Footprint = "RAD-0.3"; UniqueID = "\DFUTHCAF" ("\DFUTHCAF")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Neta1_1 Pin=C71-1
+Added Pin To Net: NetName=NetC69_1 Pin=C71-2

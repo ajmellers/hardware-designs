@@ -1,0 +1,8 @@
+Remove Pin=D3-1 From Net=Gnd
+Change Component Footprint: Designator=Y1 Old Footprint=TSX-3225 New Footprint=XL_2016
+Change Pin Designator/Name:  Old Designator=C79-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=C79-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=C86-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=C86-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=L8-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=L8-1 Old Name=1 New Designator =2 New Name=2

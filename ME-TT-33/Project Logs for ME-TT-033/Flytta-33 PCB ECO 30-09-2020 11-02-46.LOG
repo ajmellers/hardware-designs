@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=X24M_P Pin=C80-2
+Removed Pin From Net: NetName=X24M_P Pin=clk1-
+Added Pin To Net: NetName=GND Pin=L6-1

@@ -1,0 +1,9 @@
+Removed Member From Class: ClassName=Flytta-32 Member=72
+Removed Member From Class: ClassName=Flytta-32 Member=C71
+Change Component Footprint: Designator=L5 Old Footprint=Passive (0402, 1005) New Footprint=Passive (0603, 1608)
+Change Component Comment : Designator=C79 Old Comment=1pF New Comment=1.3pF
+Change Component Comment : Designator=C69 Old Comment=12pF New Comment=1.6pF
+Added Pin To Net: NetName=Neta1_1 Pin=a1-1
+Added Pin To Net: NetName=Neta1_1 Pin=C70-2
+Added Pin To Net: NetName=Neta1_1 Pin=L5-2
+Added Net: Name=Neta1_1

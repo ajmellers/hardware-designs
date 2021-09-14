@@ -1,0 +1,505 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD20\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">04/10/2020</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">15:09:57</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:06</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc" class="file"><acronym title="C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc">C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">1</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">38</td></tr>
+</table>
+</td>
+</table><a name="ID5D2XTEJFCV53MUN0MNNQFJH5DDRTGG4AZXUAGJON0RLDC5XPXGCB"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDALYHCJRXNAJCDRT2VHSVUZP5FPKJN2DIMZFAQFHJ15ZUKI54UPIK">1 Net Tie failed verification</a></td>
+<td class="column2">1</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">1</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDA0MVPVHRKRBEERCTVSX2M4US0CSFPYLUN4EP4OLLM5R3UIJ0W5AC">Clearance Constraint (Gap=0.1mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLYOFRZW4SEPTPE3OXZ3STBPRWJLEFSRH32IYOFXQXQCAYAJII4H">Short-Circuit Constraint (Allowed=Yes) (InNet('NetAE1_1')),(InNet('GND'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDMH553AWXRQ15DNI2MNN0ECL0APMG4BXYZTYZ55NEZU0QDIURT0ZI">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDADEBRPK2X4AWP4FKV4KFOOAXLRK42JKGNASZXJXE3SB3VPYPDDP">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">6</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDIBLLWJCJTI5GDGUHYGIWCZGKQIX3XFQJSX5G1CKMDREPA4SVOVK">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDIBAIJFSCUMHQOKP4ROYDJD0E3GLMACTU5XZ1SFLS5QAOBZYP2AGG">Width Constraint (Min=0.15mm) (Max=1.5mm) (Preferred=0.2mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDCWFICG343R3CNHHHCHOBVO1BHPJJTYQ0XHS2EIL5I4YAV30XMQPM">Power Plane Connect Rule(Relief Connect )(Expansion=0.175mm) (Conductor Width=0.2mm) (Air Gap=0.2mm) (Entries=4) (All)</a></td>
+<td class="column2">6</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAIZFZXGILKI5KPXZ150AI5UTHCNGPUNE4F3F4EET31BFDWCYM0GC">Minimum Annular Ring (Minimum=0.15mm) (((ObjectKind = 'Pad') OR (ObjectKind = 'Via')) And (Layer = 'MultiLayer') And (HoleDiameter &lt;= AsMM(0.45)))</a></td>
+<td class="column2">5</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZQOF5MEZMU40MD5EMRAAKRQK5NJKHRDMDFZGBYNGHNE3WRTIQHCH">Minimum Annular Ring (Minimum=0.15mm) (((ObjectKind = 'Pad') OR (ObjectKind = 'Via')) And (Layer = 'MultiLayer') And (HoleDiameter &gt; AsMM(0.45)))</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDQY0220LN5WFOML2MFXR2BGUOXCPANQGA4DJFSLLGQRI2KQ15ZTOE">Hole Size Constraint (Min=0.25mm) (Max=2mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDYCKY3JITBWGOK5ZTUYOXTX1FJIOUCVUAMRQZ3DCH10B2JDP1GC1K">Pads and Vias to follow the Drill pairs settings</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDPDUGZCGKCLLHI2BWNQ3H4R3IJIYKXHTWUT3E1MGYKRH4ZPCXHA0P">Hole To Hole Clearance (Gap=0.35mm) (All),(All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID32AVXGNL3KGUD3PRE5RT0UD2OBHMPT0TBYYNBYJXLH424DZXH1MI">Minimum Solder Mask Sliver (Gap=0.08mm) (All),(All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDX3NRTYRAXRKHK5FF4O52FWCFNIISDO2YUDC2C2PTDAMQ2ZWK3Q0J">Net Antennae (Tolerance=0mm) (Disabled)(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAWUEKYDZJJKJOZBY1IJL3NG2GJ0IGSOQTZVRI5NJWMGKBD5UKPUL">Board Clearance Constraint (Gap=0mm) (OnLayer('Bottom'))</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID412NCIZWHISHOFLH4P22CRYU3I2VEKGRKUDPM0LV0X0KSPTLOZYE">Board Clearance Constraint (Gap=0mm) (OnLayer('Top'))</a></td>
+<td class="column2">8</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDF0QBJWLPKUCTIF3ETCTIRVUZMGB5COMDOSDUQNM2KQWGSXNTPTAE">Component Clearance Constraint ( Horizontal Gap = 0.25mm, Vertical Gap = 0.25mm ) (All),(All) </a></td>
+<td class="column2">6</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAQ5ITY2WFVLFNYGXTLDOFNKKXORKKC331X2W5AGUM1MKIFWS0SWP">Height Constraint (Min=0mm) (Max=25mm) (Prefered=12.5mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">38</td>
+</tr>
+</table><br><a name="ID3AUBCYALBNSBCC5YVOR2TFSTKJWQHQFGRSRP1HKPCA20AFMYBOWH"><h2>Warnings</h2></a><a name="IDALYHCJRXNAJCDRT2VHSVUZP5FPKJN2DIMZFAQFHJ15ZUKI54UPIK"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="warning">1 Net Tie failed verification</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9340.753mil|Location2.X=9439.336mil|Location1.Y=9106.03mil|Location2.Y=9165.242mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9340.753mil|Location2.X=9439.336mil|Location1.Y=9106.03mil|Location2.Y=9165.242mil|Absolute=True">SMT Small Component C12-10UF (-11.493mm,-17.955mm) on Top</acronym></a>, SMT Small Component C12-10UF (-11.493mm,-17.955mm) on Top, has isolated copper</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDADEBRPK2X4AWP4FKV4KFOOAXLRK42JKGNASZXJXE3SB3VPYPDDP"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8650.661mil|Location2.X=8652.77mil|Location1.Y=9945.969mil|Location2.Y=9947.446mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8650.661mil|Location2.X=8652.77mil|Location1.Y=9945.969mil|Location2.Y=9947.446mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground Plane. Copper island connected to pads/vias detected. Copper area is : 0.001 sq. mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8650.811mil|Location2.X=8652.77mil|Location1.Y=9961.881mil|Location2.Y=9963.241mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8650.811mil|Location2.X=8652.77mil|Location1.Y=9961.881mil|Location2.Y=9963.241mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground Plane. Copper island connected to pads/vias detected. Copper area is : 0.001 sq. mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8649.923mil|Location2.X=8652.77mil|Location1.Y=9919.512mil|Location2.Y=9921.279mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8649.923mil|Location2.X=8652.77mil|Location1.Y=9919.512mil|Location2.Y=9921.279mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground Plane. Copper island connected to pads/vias detected. Copper area is : 0.001 sq. mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8649.925mil|Location2.X=8652.77mil|Location1.Y=9935.428mil|Location2.Y=9937.19mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8649.925mil|Location2.X=8652.77mil|Location1.Y=9935.428mil|Location2.Y=9937.19mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground Plane. Copper island connected to pads/vias detected. Copper area is : 0.001 sq. mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8750.987mil|Location2.X=8768.956mil|Location1.Y=10012.31mil|Location2.Y=10027.348mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8750.987mil|Location2.X=8768.956mil|Location1.Y=10012.31mil|Location2.Y=10027.348mil|Absolute=True">Isolated copper: Split Plane  (VDD) on Power Plane. Dead copper detected. Copper area is : 0.096 sq. mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9733.596mil|Location2.X=9760.418mil|Location1.Y=9474.099mil|Location2.Y=9491.775mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9733.596mil|Location2.X=9760.418mil|Location1.Y=9474.099mil|Location2.Y=9491.775mil|Absolute=True">Isolated copper: Split Plane  (VDD) on Power Plane. Dead copper detected. Copper area is : 0.114 sq. mm</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDCWFICG343R3CNHHHCHOBVO1BHPJJTYQ0XHS2EIL5I4YAV30XMQPM"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Power Plane Connect Rule(Relief Connect )(Expansion=0.175mm) (Conductor Width=0.2mm) (Air Gap=0.2mm) (Entries=4) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8756.822mil|Location2.X=8798.16mil|Location1.Y=9914.087mil|Location2.Y=9955.425mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8756.822mil|Location2.X=8798.16mil|Location1.Y=9914.087mil|Location2.Y=9955.425mil|Absolute=True">Starved Thermal on Ground Plane: Via (-27.052mm,2.343mm) from Top to Bottom. Blocked 3 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8703.22mil|Location2.X=8744.559mil|Location1.Y=9973.57mil|Location2.Y=10014.909mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8703.22mil|Location2.X=8744.559mil|Location1.Y=9973.57mil|Location2.Y=10014.909mil|Absolute=True">Starved Thermal on Ground Plane: Via (-28.413mm,3.854mm) from Top to Bottom. Blocked 3 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8628.78mil|Location2.X=8670.119mil|Location1.Y=9974.24mil|Location2.Y=10015.579mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8628.78mil|Location2.X=8670.119mil|Location1.Y=9974.24mil|Location2.Y=10015.579mil|Absolute=True">Starved Thermal on Ground Plane: Via (-30.304mm,3.871mm) from Top to Bottom. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8628.34mil|Location2.X=8669.679mil|Location1.Y=9947.13mil|Location2.Y=9988.469mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8628.34mil|Location2.X=8669.679mil|Location1.Y=9947.13mil|Location2.Y=9988.469mil|Absolute=True">Starved Thermal on Ground Plane: Via (-30.315mm,3.182mm) from Top to Bottom. Blocked 3 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8628.11mil|Location2.X=8669.449mil|Location1.Y=9894.46mil|Location2.Y=9935.799mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8628.11mil|Location2.X=8669.449mil|Location1.Y=9894.46mil|Location2.Y=9935.799mil|Absolute=True">Starved Thermal on Ground Plane: Via (-30.321mm,1.844mm) from Top to Bottom. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8628.12mil|Location2.X=8669.459mil|Location1.Y=9920.91mil|Location2.Y=9962.249mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8628.12mil|Location2.X=8669.459mil|Location1.Y=9920.91mil|Location2.Y=9962.249mil|Absolute=True">Starved Thermal on Ground Plane: Via (-30.321mm,2.516mm) from Top to Bottom. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDAIZFZXGILKI5KPXZ150AI5UTHCNGPUNE4F3F4EET31BFDWCYM0GC"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Annular Ring (Minimum=0.15mm) (((ObjectKind = 'Pad') OR (ObjectKind = 'Via')) And (Layer = 'MultiLayer') And (HoleDiameter &lt;= AsMM(0.45)))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8577.59mil|Location2.X=8584.745mil|Location1.Y=9811.864mil|Location2.Y=9819.019mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8577.59mil|Location2.X=8584.745mil|Location1.Y=9811.864mil|Location2.Y=9819.019mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.15mm) Pad U1-V1(-32.038mm,-0.863mm) on Multi-Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8617.59mil|Location2.X=8624.745mil|Location1.Y=9771.864mil|Location2.Y=9779.019mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8617.59mil|Location2.X=8624.745mil|Location1.Y=9771.864mil|Location2.Y=9779.019mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.15mm) Pad U1-V2(-31.022mm,-1.879mm) on Multi-Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8617.59mil|Location2.X=8624.745mil|Location1.Y=9811.863mil|Location2.Y=9819.019mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8617.59mil|Location2.X=8624.745mil|Location1.Y=9811.863mil|Location2.Y=9819.019mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.15mm) Pad U1-V3(-31.022mm,-0.863mm) on Multi-Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8617.59mil|Location2.X=8624.745mil|Location1.Y=9851.864mil|Location2.Y=9859.019mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8617.59mil|Location2.X=8624.745mil|Location1.Y=9851.864mil|Location2.Y=9859.019mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.15mm) Pad U1-V4(-31.022mm,0.153mm) on Multi-Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8657.59mil|Location2.X=8664.745mil|Location1.Y=9811.864mil|Location2.Y=9819.019mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8657.59mil|Location2.X=8664.745mil|Location1.Y=9811.864mil|Location2.Y=9819.019mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.15mm) Pad U1-V5(-30.006mm,-0.863mm) on Multi-Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDZQOF5MEZMU40MD5EMRAAKRQK5NJKHRDMDFZGBYNGHNE3WRTIQHCH"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Annular Ring (Minimum=0.15mm) (((ObjectKind = 'Pad') OR (ObjectKind = 'Via')) And (Layer = 'MultiLayer') And (HoleDiameter &gt; AsMM(0.45)))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9672.721mil|Location2.X=9677.658mil|Location1.Y=9897.858mil|Location2.Y=9902.795mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9672.721mil|Location2.X=9677.658mil|Location1.Y=9897.858mil|Location2.Y=9902.795mil|Absolute=True">Minimum Annular Ring: (Collision &lt; 0.15mm) Via (-4.25mm,0.868mm) from Top to Bottom (Annular Ring=0mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDPDUGZCGKCLLHI2BWNQ3H4R3IJIYKXHTWUT3E1MGYKRH4ZPCXHA0P"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Hole To Hole Clearance (Gap=0.35mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8764.051mil|Location2.X=8779.081mil|Location1.Y=9986.214mil|Location2.Y=10001.244mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8764.051mil|Location2.X=8779.081mil|Location1.Y=9986.214mil|Location2.Y=10001.244mil|Absolute=True">Hole To Hole Clearance Constraint: (0.338mm &lt; 0.35mm) Between Via (-26.921mm,3.691mm) from Top to Bottom And Via (-27.484mm,3.991mm) from Top to Bottom </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID32AVXGNL3KGUD3PRE5RT0UD2OBHMPT0TBYYNBYJXLH424DZXH1MI"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=0.08mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8670.745mil|Location2.X=8675.144mil|Location1.Y=9959.778mil|Location2.Y=9964.178mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8670.745mil|Location2.X=8675.144mil|Location1.Y=9959.778mil|Location2.Y=9964.178mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.025mm &lt; 0.08mm) Between Pad C79-2(-29.407mm,3.347mm) on Top And Pad L8-2(-29.412mm,2.722mm) on Top [Top Solder] Mask Sliver [0.025mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8674.086mil|Location2.X=8678.486mil|Location1.Y=9895.63mil|Location2.Y=9900.03mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8674.086mil|Location2.X=8678.486mil|Location1.Y=9895.63mil|Location2.Y=9900.03mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.034mm &lt; 0.08mm) Between Pad L8-1(-29.412mm,1.722mm) on Top And Pad U1-1(-29.622mm,1.037mm) on Top [Top Solder] Mask Sliver [0.034mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDAWUEKYDZJJKJOZBY1IJL3NG2GJ0IGSOQTZVRI5NJWMGKBD5UKPUL"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Board Clearance Constraint (Gap=0mm) (OnLayer('Bottom'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9548.759mil|Location2.X=9562.449mil|Location1.Y=9091.593mil|Location2.Y=9102.685mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9548.759mil|Location2.X=9562.449mil|Location1.Y=9091.593mil|Location2.Y=9102.685mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.181mm &lt; 0.25mm) Between Area Fill (-9.965mm,-20.026mm) (-8.056mm,-17.347mm) on Bottom And Board Edge </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9537.904mil|Location2.X=9551.325mil|Location1.Y=9222.747mil|Location2.Y=9234.001mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9537.904mil|Location2.X=9551.325mil|Location1.Y=9222.747mil|Location2.Y=9234.001mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.24mm &lt; 0.25mm) Between Board Edge And Track (-7.92mm,-15.195mm)(-5.108mm,-12.382mm) on Bottom </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9537.904mil|Location2.X=9551.325mil|Location1.Y=9222.747mil|Location2.Y=9234.001mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9537.904mil|Location2.X=9551.325mil|Location1.Y=9222.747mil|Location2.Y=9234.001mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.24mm &lt; 0.25mm) Between Board Edge And Track (-8.304mm,-15.195mm)(-7.92mm,-15.195mm) on Bottom </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID412NCIZWHISHOFLH4P22CRYU3I2VEKGRKUDPM0LV0X0KSPTLOZYE"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Board Clearance Constraint (Gap=0mm) (OnLayer('Top'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9620.87mil|Location2.X=9631.962mil|Location1.Y=9560.458mil|Location2.Y=9571.551mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9620.87mil|Location2.X=9631.962mil|Location1.Y=9560.458mil|Location2.Y=9571.551mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.167mm &lt; 0.25mm) Between Board Edge And Pad C23-1(-5.789mm,-7.407mm) on Top </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8952.661mil|Location2.X=8968.121mil|Location1.Y=10016.768mil|Location2.Y=10027.86mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8952.661mil|Location2.X=8968.121mil|Location1.Y=10016.768mil|Location2.Y=10027.86mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.194mm &lt; 0.25mm) Between Board Edge And Pad clk1-1(-23.055mm,4.879mm) on Top </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8994.036mil|Location2.X=9009.551mil|Location1.Y=10032.131mil|Location2.Y=10043.223mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8994.036mil|Location2.X=9009.551mil|Location1.Y=10032.131mil|Location2.Y=10043.223mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.179mm &lt; 0.25mm) Between Board Edge And Pad clk1-2(-21.74mm,5.358mm) on Top </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8936.843mil|Location2.X=8951.947mil|Location1.Y=9277.33mil|Location2.Y=9288.422mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8936.843mil|Location2.X=8951.947mil|Location1.Y=9277.33mil|Location2.Y=9288.422mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.192mm &lt; 0.25mm) Between Board Edge And Pad D1-2(-22.82mm,-14.755mm) on Top </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8914.366mil|Location2.X=8925.459mil|Location1.Y=9300.45mil|Location2.Y=9314.706mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8914.366mil|Location2.X=8925.459mil|Location1.Y=9300.45mil|Location2.Y=9314.706mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.088mm &lt; 0.25mm) Between Board Edge And Pad D5-1(-23.929mm,-13.518mm) on Top </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8893.85mil|Location2.X=8904.942mil|Location1.Y=9331.712mil|Location2.Y=9345.967mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8893.85mil|Location2.X=8904.942mil|Location1.Y=9331.712mil|Location2.Y=9345.967mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.112mm &lt; 0.25mm) Between Board Edge And Pad D5-2(-24.46mm,-12.73mm) on Top </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9202.71mil|Location2.X=9218.659mil|Location1.Y=9247.779mil|Location2.Y=9258.872mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9202.71mil|Location2.X=9218.659mil|Location1.Y=9247.779mil|Location2.Y=9258.872mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.247mm &lt; 0.25mm) Between Board Edge And Track (-16.064mm,-15.184mm)(-15.282mm,-15.184mm) on Top </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9202.71mil|Location2.X=9218.659mil|Location1.Y=9247.779mil|Location2.Y=9258.872mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9202.71mil|Location2.X=9218.659mil|Location1.Y=9247.779mil|Location2.Y=9258.872mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.247mm &lt; 0.25mm) Between Board Edge And Track (-16.355mm,-15.475mm)(-16.064mm,-15.184mm) on Top </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDF0QBJWLPKUCTIF3ETCTIRVUZMGB5COMDOSDUQNM2KQWGSXNTPTAE"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Component Clearance Constraint ( Horizontal Gap = 0.25mm, Vertical Gap = 0.25mm ) (All),(All) </th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7451.138mil|Location2.X=7458.7mil|Location1.Y=5823.209mil|Location2.Y=5830.771mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7451.138mil|Location2.X=7458.7mil|Location1.Y=5823.209mil|Location2.Y=5830.771mil|Absolute=True">Component Clearance Constraint: (Collision &lt; 0.25mm) Between 3D STEP FLYTTA PCB Shape - Through Hole TR (Mechanical 1)  Standoff=18.7mm  Overall=19.5mm  (219.142mm, 228.478mm) And 3D STEP FLYTTA PCB Shape - Through Hole TR (Mechanical 1)  Standoff=18.7mm  Overall=19.5mm  (219.826mm, 229.504mm) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8409.135mil|Location2.X=8420.228mil|Location1.Y=6403.017mil|Location2.Y=6414.109mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8409.135mil|Location2.X=8420.228mil|Location1.Y=6403.017mil|Location2.Y=6414.109mil|Absolute=True">Component Clearance Constraint: (Collision &lt; 0.25mm) Between 3D STEP FLYTTA PCB Shape - Through Hole TR (Mechanical 1)  Standoff=18.7mm  Overall=19.5mm  (219.142mm, 228.478mm) And 3D STEP FLYTTA PCB Shape - Through Hole TR (Mechanical 1)  Standoff=18.7mm  Overall=19.5mm  (219.962mm, 227.247mm) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7463.447mil|Location2.X=7471.009mil|Location1.Y=6629.492mil|Location2.Y=6637.054mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7463.447mil|Location2.X=7471.009mil|Location1.Y=6629.492mil|Location2.Y=6637.054mil|Absolute=True">Component Clearance Constraint: (Collision &lt; 0.25mm) Between 3D STEP FLYTTA PCB Shape - Through Hole TR (Mechanical 1)  Standoff=18.7mm  Overall=19.5mm  (219.142mm, 228.478mm) And 3D STEP FLYTTA PCB Shape - Through Hole TR (Mechanical 1)  Standoff=18.7mm  Overall=19.5mm  (221.159mm, 224.853mm) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8548.316mil|Location2.X=8555.877mil|Location1.Y=6107.319mil|Location2.Y=6114.881mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8548.316mil|Location2.X=8555.877mil|Location1.Y=6107.319mil|Location2.Y=6114.881mil|Absolute=True">Component Clearance Constraint: (Collision &lt; 0.25mm) Between 3D STEP FLYTTA PCB Shape - Through Hole TR (Mechanical 1)  Standoff=18.7mm  Overall=19.5mm  (219.826mm, 229.504mm) And 3D STEP FLYTTA PCB Shape - Through Hole TR (Mechanical 1)  Standoff=18.7mm  Overall=19.5mm  (219.962mm, 227.247mm) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8311.716mil|Location2.X=8322.808mil|Location1.Y=5743.131mil|Location2.Y=5754.224mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8311.716mil|Location2.X=8322.808mil|Location1.Y=5743.131mil|Location2.Y=5754.224mil|Absolute=True">Component Clearance Constraint: (Collision &lt; 0.25mm) Between 3D STEP FLYTTA PCB Shape - Through Hole TR (Mechanical 1)  Standoff=18.7mm  Overall=19.5mm  (219.826mm, 229.504mm) And 3D STEP FLYTTA PCB Shape - Through Hole TR (Mechanical 1)  Standoff=18.7mm  Overall=19.5mm  (221.159mm, 224.853mm) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8540.032mil|Location2.X=8547.593mil|Location1.Y=6013.069mil|Location2.Y=6020.631mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-32\Flytta-32.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8540.032mil|Location2.X=8547.593mil|Location1.Y=6013.069mil|Location2.Y=6020.631mil|Absolute=True">Component Clearance Constraint: (Collision &lt; 0.25mm) Between 3D STEP FLYTTA PCB Shape - Through Hole TR (Mechanical 1)  Standoff=18.7mm  Overall=19.5mm  (219.962mm, 227.247mm) And 3D STEP FLYTTA PCB Shape - Through Hole TR (Mechanical 1)  Standoff=18.7mm  Overall=19.5mm  (221.159mm, 224.853mm) </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

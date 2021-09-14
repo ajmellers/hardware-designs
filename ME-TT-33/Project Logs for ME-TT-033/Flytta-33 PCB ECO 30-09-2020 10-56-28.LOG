@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=X24M_P Pin=C80-2
+Removed Pin From Net: NetName=X24M_P Pin=clk1-
+Change Component Footprint: Designator=L6 Old Footprint=Passive (0402, 1005) New Footprint=Passive (0603, 1608)
+Change Component Footprint: Designator=L10 Old Footprint=Passive (0402, 1005) New Footprint=Passive (0603, 1608)
+Change Component Footprint: Designator=L11 Old Footprint=Passive (0402, 1005) New Footprint=Passive (0603, 1608)
+Change Component Footprint: Designator=L12 Old Footprint=Passive (0402, 1005) New Footprint=Passive (0603, 1608)
+Added Component: Designator=ANT(JTW2G44AN1608T80)
+Added Pin To Net: NetName=Net*_1 Pin=ANT-1
+Added Pin To Net: NetName=Net*_1 Pin=ANT-1
+Change Net Name : Old Net Name=Net*_1 New Net Name=NetANT_1
+Added Member To Class: ClassName=Flytta-33 Member=Component ANT Creatway antenna JTW2G44AN1608T80

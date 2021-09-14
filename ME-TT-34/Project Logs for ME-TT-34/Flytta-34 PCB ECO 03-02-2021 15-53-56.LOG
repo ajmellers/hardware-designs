@@ -1,0 +1,4 @@
+Change Component Comment : Designator=C55 Old Comment=22pF New Comment=0.1uf
+Change Component Comment : Designator=C61 Old Comment=22pF New Comment=0.1uf
+Change Component Comment : Designator=U2 Old Comment=MX25R6435FZNIL0 New Comment=MX25L3233F
+Added Pin To Net: NetName=X24M_P Pin=C80-2

@@ -1,0 +1,574 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\ajmel\MedEngineSrc\flt-32\ME-TT-33\Flytta-33.PcbDoc
+Date     : 30/09/2020
+Time     : 14:37:48
+
+ERROR : More than 500 violations detected, DRC was stopped
+
+WARNING: 1 Net Tie failed verification
+   SMT Small Component C12-10UF (6.76mm,-29.048mm) on Top, SMT Small Component C12-10UF (6.76mm,-29.048mm) on Top, has isolated copper
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
+   Violation between Clearance Constraint: (0.101mm < 0.15mm) Between Area Fill (-17.675mm,-16.055mm) (-16.356mm,-14.152mm) on Bottom And Track (-16.156mm,-16.077mm)(-15.476mm,-16.757mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Area Fill (-17.675mm,-16.055mm) (-16.356mm,-14.152mm) on Bottom And Track (-16.156mm,-16.077mm)(-16.156mm,-14.069mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Area Fill (-17.675mm,-16.055mm) (-16.356mm,-14.152mm) on Bottom And Track (-16.294mm,-13.932mm)(-16.156mm,-14.069mm) on Bottom 
+   Violation between Clearance Constraint: (0.129mm < 0.15mm) Between Area Fill (-17.675mm,-16.055mm) (-16.356mm,-14.152mm) on Bottom And Track (-16.294mm,-13.932mm)(-16.294mm,-11.282mm) on Bottom 
+   Violation between Clearance Constraint: (0.109mm < 0.15mm) Between Pad C11-1(-0.306mm,-27.706mm) on Top And Pad L2-1(-0.726mm,-26.823mm) on Top 
+   Violation between Clearance Constraint: (0.139mm < 0.15mm) Between Pad C11-1(-0.306mm,-27.706mm) on Top And Track (-0.306mm,-28.68mm)(0.348mm,-28.026mm) on Top 
+   Violation between Clearance Constraint: (0.148mm < 0.15mm) Between Pad C11-1(-0.306mm,-27.706mm) on Top And Track (-0.875mm,-28.137mm)(-0.875mm,-28.049mm) on Top 
+   Violation between Clearance Constraint: (0.145mm < 0.15mm) Between Pad C11-2(-0.306mm,-28.706mm) on Top And Via (0.439mm,-28.677mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.112mm < 0.15mm) Between Pad C40-1(-3.529mm,-29.093mm) on Top And Track (-3.351mm,-28.67mm)(-2.929mm,-29.093mm) on Top 
+   Violation between Clearance Constraint: (0.127mm < 0.15mm) Between Pad C40-2(-2.929mm,-29.093mm) on Top And Via (-2.42mm,-28.711mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.11mm < 0.15mm) Between Pad C4-1(7.914mm,-21.363mm) on Top And Via (8.407mm,-22.269mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.118mm < 0.15mm) Between Pad C48-1(-4.077mm,-30.408mm) on Top And Track (-3.894mm,-30.043mm)(-3.112mm,-30.043mm) on Top 
+   Violation between Clearance Constraint: (0.118mm < 0.15mm) Between Pad C48-1(-4.077mm,-30.408mm) on Top And Track (-4.244mm,-29.693mm)(-3.894mm,-30.043mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad C49-1(-3.644mm,-29.693mm) on Top And Track (-3.894mm,-30.043mm)(-3.112mm,-30.043mm) on Top 
+   Violation between Clearance Constraint: (0.112mm < 0.15mm) Between Pad C49-1(-3.644mm,-29.693mm) on Top And Track (-4.244mm,-29.693mm)(-3.894mm,-30.043mm) on Top 
+   Violation between Clearance Constraint: (0.112mm < 0.15mm) Between Pad C49-2(-4.244mm,-29.693mm) on Top And Track (-4.013mm,-29.324mm)(-3.644mm,-29.693mm) on Top 
+   Violation between Clearance Constraint: (0.147mm < 0.15mm) Between Pad C49-2(-4.244mm,-29.693mm) on Top And Track (-4.859mm,-29.727mm)(-4.217mm,-30.369mm) on Top 
+   Violation between Clearance Constraint: (0.119mm < 0.15mm) Between Pad C49-2(-4.244mm,-29.693mm) on Top And Track (-5.162mm,-29.324mm)(-4.013mm,-29.324mm) on Top 
+   Violation between Clearance Constraint: (0.142mm < 0.15mm) Between Pad C50-1(1.356mm,-31.443mm) on Top And Via (1.948mm,-31.443mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad C50-2(0.756mm,-31.443mm) on Top And Track (0.537mm,-30.642mm)(1.356mm,-31.46mm) on Top 
+   Violation between Clearance Constraint: (0.148mm < 0.15mm) Between Pad C5-1(-13.516mm,-7.575mm) on Top And Via (-13.787mm,-8.157mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.145mm < 0.15mm) Between Pad C6-1(-9.368mm,-12.925mm) on Top And Track (-10.337mm,-12.556mm)(-9.754mm,-13.139mm) on Top 
+   Violation between Clearance Constraint: (0.145mm < 0.15mm) Between Pad C6-1(-9.368mm,-12.925mm) on Top And Track (-9.754mm,-13.434mm)(-9.754mm,-13.139mm) on Top 
+   Violation between Clearance Constraint: (0.136mm < 0.15mm) Between Pad C6-1(-9.368mm,-12.925mm) on Top And Via (-9.777mm,-13.425mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.109mm < 0.15mm) Between Pad C8-1(-1.232mm,-28.397mm) on Top And Track (-0.875mm,-28.137mm)(-0.306mm,-28.706mm) on Top 
+   Violation between Clearance Constraint: (0.109mm < 0.15mm) Between Pad C8-1(-1.232mm,-28.397mm) on Top And Track (-0.875mm,-28.137mm)(-0.875mm,-28.049mm) on Top 
+   Violation between Clearance Constraint: (0.106mm < 0.15mm) Between Pad C8-1(-1.232mm,-28.397mm) on Top And Track (-1.037mm,-27.89mm)(-0.959mm,-27.966mm) on Top 
+   Violation between Clearance Constraint: (0.138mm < 0.15mm) Between Pad D2-2(4.152mm,-26.26mm) on Top And Via (3.723mm,-27.028mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.098mm < 0.15mm) Between Pad D5-1(-5.479mm,-24.675mm) on Top And Track (-5.955mm,-25.066mm)(-5.076mm,-25.945mm) on Top 
+   Violation between Clearance Constraint: (0.107mm < 0.15mm) Between Pad D5-2(-5.954mm,-23.852mm) on Top And Track (-6.869mm,-23.818mm)(-6.12mm,-24.567mm) on Top 
+   Violation between Clearance Constraint: (0.137mm < 0.15mm) Between Pad K3-15(-6.186mm,-29.007mm) on Top And Via (-6.142mm,-29.733mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad K3-8(-9.226mm,-27.381mm) on Top And Track (-9.343mm,-26.884mm)(-9.016mm,-26.884mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad K3-8(-9.226mm,-27.381mm) on Top And Track (-9.858mm,-26.369mm)(-9.343mm,-26.884mm) on Top 
+   Violation between Clearance Constraint: (0.108mm < 0.15mm) Between Pad L2-1(-0.726mm,-26.823mm) on Top And Track (-1.916mm,-27.027mm)(-1.253mm,-27.678mm) on Top 
+   Violation between Clearance Constraint: (0.14mm < 0.15mm) Between Pad R21-1(-14.496mm,-9.137mm) on Top And Track (-14.169mm,-10.056mm)(-14.169mm,-9.447mm) on Top 
+   Violation between Clearance Constraint: (0.14mm < 0.15mm) Between Pad R21-1(-14.496mm,-9.137mm) on Top And Track (-14.169mm,-9.447mm)(-13.312mm,-8.59mm) on Top 
+   Violation between Clearance Constraint: (0.112mm < 0.15mm) Between Pad R22-1(-13.294mm,-8.157mm) on Top And Track (-13.128mm,-8.59mm)(-12.694mm,-8.157mm) on Top 
+   Violation between Clearance Constraint: (0.137mm < 0.15mm) Between Pad R22-2(-12.694mm,-8.157mm) on Top And Via (-12.825mm,-7.57mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.101mm < 0.15mm) Between Pad R23-1(-15.269mm,-19.205mm) on Top And Via (-14.82mm,-18.788mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.112mm < 0.15mm) Between Pad R47-1(-4.477mm,-31.349mm) on Top And Track (-4.238mm,-31.71mm)(-3.877mm,-31.349mm) on Top 
+   Violation between Clearance Constraint: (0.111mm < 0.15mm) Between Pad R47-1(-4.477mm,-31.349mm) on Top And Track (-5.605mm,-31.71mm)(-4.238mm,-31.71mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad R8-2(-11.965mm,-15.384mm) on Top And Track (-12.169mm,-14.597mm)(-11.287mm,-15.479mm) on Top 
+   Violation between Clearance Constraint: (0.134mm < 0.15mm) Between Pad U1-14(-14.669mm,-12.556mm) on Top And Track (-17.691mm,-14.904mm)(-14.942mm,-12.156mm) on Top 
+   Violation between Clearance Constraint: (0.117mm < 0.15mm) Between Pad U1-15(-14.669mm,-12.956mm) on Top And Track (-16.918mm,-14.556mm)(-14.918mm,-12.556mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad U1-16(-14.669mm,-13.356mm) on Top And Track (-16.618mm,-14.68mm)(-14.893mm,-12.956mm) on Top 
+   Violation between Clearance Constraint: (0.126mm < 0.15mm) Between Pad U1-24(-11.369mm,-13.856mm) on Top And Via (-10.899mm,-14.293mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad U1-25(-10.869mm,-13.356mm) on Top And Track (-10.369mm,-13.763mm)(-10.369mm,-13.231mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad U1-25(-10.869mm,-13.356mm) on Top And Track (-10.645mm,-12.956mm)(-10.369mm,-13.231mm) on Top 
+   Violation between Clearance Constraint: (0.114mm < 0.15mm) Between Pad U1-25(-10.869mm,-13.356mm) on Top And Via (-10.399mm,-13.793mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.105mm < 0.15mm) Between Pad U2-2(-10.337mm,-24.27mm) on Top And Track (-10.546mm,-23.523mm)(-8.707mm,-21.685mm) on Top 
+   Violation between Clearance Constraint: (0.105mm < 0.15mm) Between Pad U2-2(-10.337mm,-24.27mm) on Top And Track (-10.64mm,-23.523mm)(-10.546mm,-23.523mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad U2-2(-10.337mm,-24.27mm) on Top And Track (-11.169mm,-24.052mm)(-10.64mm,-23.523mm) on Top 
+   Violation between Clearance Constraint: (0.144mm < 0.15mm) Between Pad U2-3(-9.364mm,-23.454mm) on Top And Track (-10.546mm,-23.523mm)(-8.707mm,-21.685mm) on Top 
+   Violation between Clearance Constraint: (0.141mm < 0.15mm) Between Pad U2-3(-9.364mm,-23.454mm) on Top And Track (-9.858mm,-25.056mm)(-8.488mm,-23.686mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad U2-5(-12.055mm,-18.271mm) on Top And Track (-11.345mm,-18.611mm)(-11.345mm,-18.133mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad U2-5(-12.055mm,-18.271mm) on Top And Track (-12.568mm,-19.834mm)(-11.345mm,-18.611mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad U2-6(-13.028mm,-19.087mm) on Top And Track (-12.885mm,-19.834mm)(-12.568mm,-19.834mm) on Top 
+   Violation between Clearance Constraint: (0.101mm < 0.15mm) Between Pad U2-6(-13.028mm,-19.087mm) on Top And Track (-13.291mm,-20.24mm)(-12.885mm,-19.834mm) on Top 
+   Violation between Clearance Constraint: (0.115mm < 0.15mm) Between Pad U2-7(-14.001mm,-19.904mm) on Top And Track (-13.291mm,-20.244mm)(-13.291mm,-20.24mm) on Top 
+   Violation between Clearance Constraint: (0.115mm < 0.15mm) Between Pad U2-7(-14.001mm,-19.904mm) on Top And Track (-13.291mm,-20.24mm)(-12.885mm,-19.834mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad U2-7(-14.001mm,-19.904mm) on Top And Track (-13.697mm,-20.65mm)(-13.291mm,-20.244mm) on Top 
+   Violation between Clearance Constraint: (0.143mm < 0.15mm) Between Pad U2-7(-14.001mm,-19.904mm) on Top And Track (-13.697mm,-20.65mm)(-13.697mm,-20.65mm) on Top 
+   Violation between Clearance Constraint: (0.143mm < 0.15mm) Between Pad U2-7(-14.001mm,-19.904mm) on Top And Track (-13.699mm,-20.652mm)(-13.697mm,-20.65mm) on Top 
+   Violation between Clearance Constraint: (0.141mm < 0.15mm) Between Pad U2-7(-14.001mm,-19.904mm) on Top And Track (-13.704mm,-20.652mm)(-13.699mm,-20.652mm) on Top 
+   Violation between Clearance Constraint: (0.141mm < 0.15mm) Between Pad U2-7(-14.001mm,-19.904mm) on Top And Track (-15.161mm,-22.11mm)(-13.704mm,-20.652mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad U2-9(-11.682mm,-21.679mm) on Top And Track (-10.546mm,-23.523mm)(-8.707mm,-21.685mm) on Top 
+   Violation between Clearance Constraint: (0.14mm < 0.15mm) Between Pad U2-9(-11.682mm,-21.679mm) on Top And Track (-10.654mm,-19.147mm)(-10.654mm,-19.147mm) on Top 
+   Violation between Clearance Constraint: (0.14mm < 0.15mm) Between Pad U2-9(-11.682mm,-21.679mm) on Top And Track (-10.654mm,-19.147mm)(-8.707mm,-21.094mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad U2-9(-11.682mm,-21.679mm) on Top And Track (-10.99mm,-18.811mm)(-10.654mm,-19.147mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad U2-9(-11.682mm,-21.679mm) on Top And Track (-10.99mm,-18.811mm)(-10.99mm,-17.736mm) on Top 
+   Violation between Clearance Constraint: (0.147mm < 0.15mm) Between Pad U2-9(-11.682mm,-21.679mm) on Top And Track (-15.161mm,-22.11mm)(-13.704mm,-20.652mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad U2-9(-11.682mm,-21.679mm) on Top And Track (-8.707mm,-21.685mm)(-8.707mm,-21.094mm) on Top 
+   Violation between Clearance Constraint: (0.13mm < 0.15mm) Between Pad U3-1(3.198mm,-27.427mm) on Top And Via (3.723mm,-27.028mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.118mm < 0.15mm) Between Pad U3-3(1.948mm,-28.377mm) on Top And Track (3.242mm,-27.843mm)(3.242mm,-27.558mm) on Top 
+   Violation between Clearance Constraint: (0.118mm < 0.15mm) Between Pad U3-3(1.948mm,-28.377mm) on Top And Track (3.242mm,-27.843mm)(3.854mm,-28.455mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad U3-6(0.698mm,-27.427mm) on Top And Track (0.348mm,-27.091mm)(0.479mm,-26.96mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad U3-6(0.698mm,-27.427mm) on Top And Track (0.348mm,-28.026mm)(0.348mm,-27.091mm) on Top 
+   Violation between Clearance Constraint: (0.106mm < 0.15mm) Between Pad U3-6(0.698mm,-27.427mm) on Top And Track (0.479mm,-26.951mm)(1.027mm,-26.951mm) on Top 
+   Violation between Clearance Constraint: (0.11mm < 0.15mm) Between Pad U3-7(0.698mm,-29.327mm) on Top And Region (0 hole(s)) Top 
+   Violation between Clearance Constraint: (0.125mm < 0.15mm) Between Pad U3-7(0.698mm,-29.327mm) on Top And Via (0.439mm,-28.677mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.104mm < 0.15mm) Between Pad U3-7(0.698mm,-29.327mm) on Top And Via (0.867mm,-29.977mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.117mm < 0.15mm) Between Pad U4-5(10.369mm,-22.637mm) on Top And Track (8.982mm,-23.759mm)(9.904mm,-22.836mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad U4-5(10.369mm,-22.637mm) on Top And Track (9.904mm,-22.439mm)(10.134mm,-22.209mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad U4-5(10.369mm,-22.637mm) on Top And Track (9.904mm,-22.836mm)(9.904mm,-22.439mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad U6-C1(7.152mm,-26.475mm) on Top And Track (7.001mm,-27.086mm)(7.542mm,-26.544mm) on Top 
+   Violation between Clearance Constraint: (0.121mm < 0.15mm) Between Region (0 hole(s)) Top And Track (6.09mm,-28.092mm)(6.831mm,-28.092mm) on Top 
+   Violation between Clearance Constraint: (0.13mm < 0.15mm) Between Region (0 hole(s)) Top And Via (2.698mm,-28.452mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (0.023mm,-26.955mm)(0.346mm,-26.631mm) on Top And Via (-0.331mm,-26.601mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (0.023mm,-27.429mm)(0.023mm,-26.955mm) on Top And Track (0.348mm,-27.091mm)(0.479mm,-26.96mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-0.119mm,-30.797mm)(0.754mm,-30.797mm) on Bottom And Track (0.137mm,-30.497mm)(0.657mm,-29.977mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-0.119mm,-30.797mm)(0.754mm,-30.797mm) on Bottom And Track (-0.243mm,-30.497mm)(0.137mm,-30.497mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-0.119mm,-30.797mm)(0.754mm,-30.797mm) on Bottom And Track (-0.373mm,-30.627mm)(-0.243mm,-30.497mm) on Bottom 
+   Violation between Clearance Constraint: (0.106mm < 0.15mm) Between Track (-0.119mm,-30.797mm)(0.754mm,-30.797mm) on Bottom And Track (-1.851mm,-30.627mm)(-0.373mm,-30.627mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-0.223mm,-32.915mm)(0.778mm,-32.915mm) on Bottom And Track (-0.347mm,-33.215mm)(0.902mm,-33.215mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-0.223mm,-32.915mm)(0.778mm,-32.915mm) on Bottom And Track (-0.474mm,-33.088mm)(-0.347mm,-33.215mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-0.223mm,-32.915mm)(0.778mm,-32.915mm) on Bottom And Track (0.902mm,-33.215mm)(1.236mm,-32.881mm) on Bottom 
+   Violation between Clearance Constraint: (0.105mm < 0.15mm) Between Track (-0.223mm,-32.915mm)(0.778mm,-32.915mm) on Bottom And Track (-1.833mm,-33.088mm)(-0.474mm,-33.088mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-0.243mm,-30.497mm)(0.137mm,-30.497mm) on Bottom And Track (-0.412mm,-31.09mm)(-0.119mm,-30.797mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-0.306mm,-28.68mm)(0.348mm,-28.026mm) on Top And Via (0.439mm,-28.677mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-0.347mm,-33.215mm)(0.902mm,-33.215mm) on Bottom And Track (0.778mm,-32.915mm)(1.388mm,-32.305mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-0.35mm,-32.788mm)(-0.223mm,-32.915mm) on Bottom And Track (-0.474mm,-33.088mm)(-0.347mm,-33.215mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-0.35mm,-32.788mm)(-0.223mm,-32.915mm) on Bottom And Track (-1.833mm,-33.088mm)(-0.474mm,-33.088mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-0.412mm,-31.09mm)(-0.119mm,-30.797mm) on Bottom And Track (-1.851mm,-30.627mm)(-0.373mm,-30.627mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-0.472mm,-33.515mm)(1.026mm,-33.515mm) on Bottom And Track (-0.474mm,-33.088mm)(-0.347mm,-33.215mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-0.472mm,-33.515mm)(1.026mm,-33.515mm) on Bottom And Track (0.902mm,-33.215mm)(1.236mm,-32.881mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-0.474mm,-33.088mm)(-0.347mm,-33.215mm) on Bottom And Track (-0.599mm,-33.388mm)(-0.472mm,-33.515mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-0.474mm,-33.088mm)(-0.347mm,-33.215mm) on Bottom And Track (-1.585mm,-32.788mm)(-0.35mm,-32.788mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-0.474mm,-33.088mm)(-0.347mm,-33.215mm) on Bottom And Track (-1.957mm,-33.388mm)(-0.599mm,-33.388mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (0.479mm,-26.951mm)(1.027mm,-26.951mm) on Top And Track (0.82mm,-26.631mm)(0.883mm,-26.568mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-0.599mm,-33.388mm)(-0.472mm,-33.515mm) on Bottom And Track (-1.833mm,-33.088mm)(-0.474mm,-33.088mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (0.754mm,-30.797mm)(1.367mm,-30.184mm) on Bottom And Via (0.867mm,-29.977mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-0.773mm,-29.204mm)(0.801mm,-29.204mm) on Bottom And Via (0.088mm,-29.704mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.127mm < 0.15mm) Between Track (-0.773mm,-29.204mm)(0.801mm,-29.204mm) on Bottom And Via (0.439mm,-28.677mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (0.778mm,-32.915mm)(1.388mm,-32.305mm) on Bottom And Track (0.902mm,-33.215mm)(1.236mm,-32.881mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (0.778mm,-32.915mm)(1.388mm,-32.305mm) on Bottom And Track (1.236mm,-32.881mm)(2.634mm,-32.881mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (0.778mm,-32.915mm)(1.388mm,-32.305mm) on Bottom And Via (0.698mm,-32.288mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (0.801mm,-29.204mm)(1.367mm,-29.77mm) on Bottom And Via (0.867mm,-29.977mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (0.902mm,-33.215mm)(1.236mm,-32.881mm) on Bottom And Track (1.026mm,-33.515mm)(1.36mm,-33.181mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (0.902mm,-33.215mm)(1.236mm,-32.881mm) on Bottom And Track (1.36mm,-33.181mm)(2.758mm,-33.181mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (1.367mm,-30.184mm)(1.367mm,-29.77mm) on Bottom And Via (0.867mm,-29.977mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (1.36mm,-33.181mm)(2.758mm,-33.181mm) on Bottom And Track (2.634mm,-32.881mm)(3.69mm,-31.824mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-1.585mm,-32.788mm)(-0.35mm,-32.788mm) on Bottom And Track (-1.833mm,-33.088mm)(-0.474mm,-33.088mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-1.833mm,-33.088mm)(-0.474mm,-33.088mm) on Bottom And Track (-1.957mm,-33.388mm)(-0.599mm,-33.388mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-1.833mm,-33.088mm)(-0.474mm,-33.088mm) on Bottom And Track (-2.187mm,-33.158mm)(-1.957mm,-33.388mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-1.833mm,-33.088mm)(-0.474mm,-33.088mm) on Bottom And Track (-4.15mm,-30.224mm)(-1.585mm,-32.788mm) on Bottom 
+   Violation between Clearance Constraint: (0.119mm < 0.15mm) Between Track (1.898mm,-26.568mm)(2.189mm,-26.277mm) on Top And Via (2.423mm,-26.777mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-1.957mm,-33.388mm)(-0.599mm,-33.388mm) on Bottom And Track (-2.062mm,-32.858mm)(-1.833mm,-33.088mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.025mm,-14.378mm)(-9.571mm,-13.925mm) on Bottom And Track (-10.325mm,-14.51mm)(-10.325mm,-13.867mm) on Bottom 
+   Violation between Clearance Constraint: (0.128mm < 0.15mm) Between Track (-10.025mm,-14.378mm)(-9.571mm,-13.925mm) on Bottom And Track (-10.599mm,-14.785mm)(-10.325mm,-14.51mm) on Bottom 
+   Violation between Clearance Constraint: (0.141mm < 0.15mm) Between Track (-10.025mm,-14.378mm)(-9.571mm,-13.925mm) on Bottom And Via (-9.777mm,-13.425mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.144mm < 0.15mm) Between Track (-10.189mm,-17.774mm)(-10.189mm,-16.493mm) on Bottom And Track (-10.283mm,-18.104mm)(-9.99mm,-18.397mm) on Bottom 
+   Violation between Clearance Constraint: (0.144mm < 0.15mm) Between Track (-10.189mm,-17.774mm)(-10.189mm,-16.493mm) on Bottom And Track (-10.293mm,-18.104mm)(-10.283mm,-18.104mm) on Bottom 
+   Violation between Clearance Constraint: (0.137mm < 0.15mm) Between Track (-10.189mm,-17.774mm)(-10.189mm,-16.493mm) on Bottom And Track (-10.293mm,-18.104mm)(-10.293mm,-18.094mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.189mm,-17.774mm)(-10.189mm,-16.493mm) on Bottom And Track (-10.299mm,-15.959mm)(-9.889mm,-16.369mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.189mm,-17.774mm)(-10.189mm,-16.493mm) on Bottom And Track (-10.489mm,-17.898mm)(-10.293mm,-18.094mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.189mm,-17.774mm)(-10.189mm,-16.493mm) on Bottom And Track (-10.899mm,-16.217mm)(-10.489mm,-16.628mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.189mm,-17.774mm)(-10.189mm,-16.493mm) on Bottom And Track (-9.889mm,-17.649mm)(-9.115mm,-18.423mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.189mm,-17.774mm)(-10.189mm,-16.493mm) on Bottom And Track (-9.889mm,-17.649mm)(-9.889mm,-16.369mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.189mm,-17.774mm)(-9.581mm,-18.382mm) on Bottom And Track (-10.283mm,-18.104mm)(-9.99mm,-18.397mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.189mm,-17.774mm)(-9.581mm,-18.382mm) on Bottom And Track (-10.293mm,-18.104mm)(-10.283mm,-18.104mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.189mm,-17.774mm)(-9.581mm,-18.382mm) on Bottom And Track (-10.293mm,-18.104mm)(-10.293mm,-18.094mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.189mm,-17.774mm)(-9.581mm,-18.382mm) on Bottom And Track (-10.489mm,-17.898mm)(-10.293mm,-18.094mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.189mm,-17.774mm)(-9.581mm,-18.382mm) on Bottom And Track (-10.489mm,-17.898mm)(-10.489mm,-16.628mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.189mm,-17.774mm)(-9.581mm,-18.382mm) on Bottom And Track (-9.889mm,-17.649mm)(-9.115mm,-18.423mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.189mm,-17.774mm)(-9.581mm,-18.382mm) on Bottom And Track (-9.889mm,-17.649mm)(-9.889mm,-16.369mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.189mm,-17.774mm)(-9.581mm,-18.382mm) on Bottom And Track (-9.99mm,-18.811mm)(-9.99mm,-18.397mm) on Bottom 
+   Violation between Clearance Constraint: (0.103mm < 0.15mm) Between Track (-10.1mm,-18.922mm)(-9.99mm,-18.811mm) on Bottom And Via (-10.49mm,-18.604mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.103mm < 0.15mm) Between Track (-10.1mm,-20.297mm)(-10.1mm,-18.922mm) on Bottom And Via (-10.49mm,-18.604mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.131mm < 0.15mm) Between Track (-10.1mm,-20.297mm)(-10.1mm,-18.922mm) on Bottom And Via (-9.57mm,-19.468mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.147mm < 0.15mm) Between Track (-10.1mm,-20.297mm)(-6.631mm,-23.766mm) on Bottom And Track (-6.331mm,-23.939mm)(-6.139mm,-24.132mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.1mm,-20.297mm)(-6.631mm,-23.766mm) on Bottom And Track (-6.331mm,-23.939mm)(-6.331mm,-23.642mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.1mm,-20.297mm)(-6.631mm,-23.766mm) on Bottom And Track (-6.931mm,-24.188mm)(-6.931mm,-23.89mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.1mm,-20.297mm)(-6.631mm,-23.766mm) on Bottom And Track (-8.59mm,-21.383mm)(-8.59mm,-19.741mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.238mm,-12.925mm)(-9.57mm,-12.925mm) on Bottom And Via (-9.777mm,-13.425mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.283mm,-18.104mm)(-9.99mm,-18.397mm) on Bottom And Via (-10.49mm,-18.604mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.137mm < 0.15mm) Between Track (-10.293mm,-18.104mm)(-10.283mm,-18.104mm) on Bottom And Via (-10.49mm,-18.604mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.137mm < 0.15mm) Between Track (-10.293mm,-18.104mm)(-10.293mm,-18.094mm) on Bottom And Via (-10.49mm,-18.604mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.299mm,-14.909mm)(-10.025mm,-14.634mm) on Bottom And Track (-10.325mm,-14.51mm)(-10.325mm,-13.867mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.299mm,-14.909mm)(-10.025mm,-14.634mm) on Bottom And Track (-10.599mm,-14.785mm)(-10.325mm,-14.51mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.299mm,-14.909mm)(-10.025mm,-14.634mm) on Bottom And Track (-10.599mm,-16.083mm)(-10.599mm,-14.785mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.299mm,-15.959mm)(-9.889mm,-16.369mm) on Bottom And Track (-10.599mm,-16.083mm)(-10.189mm,-16.493mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.299mm,-15.959mm)(-9.889mm,-16.369mm) on Bottom And Track (-10.599mm,-16.083mm)(-10.599mm,-14.785mm) on Bottom 
+   Violation between Clearance Constraint: (0.148mm < 0.15mm) Between Track (-10.489mm,-17.898mm)(-10.293mm,-18.094mm) on Bottom And Track (-11.286mm,-18.269mm)(-10.826mm,-17.809mm) on Bottom 
+   Violation between Clearance Constraint: (0.147mm < 0.15mm) Between Track (-10.489mm,-17.898mm)(-10.293mm,-18.094mm) on Bottom And Via (-10.49mm,-18.604mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.137mm < 0.15mm) Between Track (-10.489mm,-17.898mm)(-10.489mm,-16.628mm) on Bottom And Track (-11.286mm,-18.269mm)(-10.826mm,-17.809mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.49mm,-20.331mm)(-6.931mm,-23.89mm) on Bottom And Track (-7.231mm,-24.429mm)(-7.231mm,-24.015mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.546mm,-23.523mm)(-8.707mm,-21.685mm) on Top And Via (-9.439mm,-23.124mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.599mm,-14.785mm)(-10.325mm,-14.51mm) on Bottom And Track (-10.899mm,-16.217mm)(-10.899mm,-14.293mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.599mm,-16.083mm)(-10.189mm,-16.493mm) on Bottom And Track (-10.899mm,-16.217mm)(-10.899mm,-14.293mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.599mm,-16.083mm)(-10.189mm,-16.493mm) on Bottom And Track (-9.889mm,-17.649mm)(-9.889mm,-16.369mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.599mm,-16.083mm)(-10.599mm,-14.785mm) on Bottom And Track (-10.899mm,-16.217mm)(-10.899mm,-14.293mm) on Bottom 
+   Violation between Clearance Constraint: (0.14mm < 0.15mm) Between Track (-10.654mm,-19.147mm)(-8.707mm,-21.094mm) on Top And Via (-9.57mm,-19.468mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.899mm,-16.217mm)(-10.489mm,-16.628mm) on Bottom And Track (-11.199mm,-16.382mm)(-11.199mm,-14.7mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.899mm,-16.217mm)(-10.899mm,-14.293mm) on Bottom And Track (-11.199mm,-16.382mm)(-11.199mm,-14.7mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.899mm,-16.217mm)(-10.899mm,-14.293mm) on Bottom And Track (-11.399mm,-14.5mm)(-11.199mm,-14.7mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.987mm,-16.762mm)(-10.987mm,-15.273mm) on Top And Track (-11.287mm,-16.382mm)(-11.287mm,-15.479mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.987mm,-16.762mm)(-10.987mm,-15.273mm) on Top And Track (-11.897mm,-16.991mm)(-11.287mm,-16.382mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.987mm,-16.762mm)(-10.987mm,-15.273mm) on Top And Track (-12.169mm,-14.597mm)(-11.287mm,-15.479mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.99mm,-18.811mm)(-10.654mm,-19.147mm) on Top And Via (-10.49mm,-18.604mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-10.99mm,-18.811mm)(-10.99mm,-17.736mm) on Top And Via (-10.49mm,-18.604mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-11.286mm,-18.269mm)(-10.826mm,-17.809mm) on Bottom And Track (-11.351mm,-17.909mm)(-11.351mm,-17.233mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-11.286mm,-18.269mm)(-10.826mm,-17.809mm) on Bottom And Track (-11.59mm,-18.149mm)(-11.351mm,-17.909mm) on Bottom 
+   Violation between Clearance Constraint: (0.104mm < 0.15mm) Between Track (-11.286mm,-18.269mm)(-10.826mm,-17.809mm) on Bottom And Track (-11.59mm,-23.06mm)(-11.59mm,-18.149mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-11.286mm,-19.96mm)(-11.286mm,-18.269mm) on Bottom And Track (-11.59mm,-18.149mm)(-11.351mm,-17.909mm) on Bottom 
+   Violation between Clearance Constraint: (0.104mm < 0.15mm) Between Track (-11.286mm,-19.96mm)(-11.286mm,-18.269mm) on Bottom And Track (-11.59mm,-23.06mm)(-11.59mm,-18.149mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-11.287mm,-16.382mm)(-11.287mm,-15.479mm) on Top And Via (-11.787mm,-16.175mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-11.41mm,-25.637mm)(-6.206mm,-30.841mm) on Bottom And Via (-9.588mm,-28.167mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.118mm < 0.15mm) Between Track (-11.654mm,-24.928mm)(-5.816mm,-30.767mm) on Bottom And Track (-6.042mm,-31.145mm)(-6.042mm,-30.989mm) on Bottom 
+   Violation between Clearance Constraint: (0.118mm < 0.15mm) Between Track (-11.654mm,-24.928mm)(-5.816mm,-30.767mm) on Bottom And Track (-6.107mm,-30.924mm)(-6.042mm,-30.989mm) on Bottom 
+   Violation between Clearance Constraint: (0.118mm < 0.15mm) Between Track (-11.654mm,-24.928mm)(-5.816mm,-30.767mm) on Bottom And Track (-6.206mm,-30.841mm)(-6.107mm,-30.924mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-11.654mm,-24.928mm)(-5.816mm,-30.767mm) on Bottom And Via (-6.142mm,-29.733mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-11.897mm,-16.991mm)(-11.287mm,-16.382mm) on Top And Via (-11.787mm,-16.175mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.143mm < 0.15mm) Between Track (12.181mm,-20.225mm)(13.685mm,-20.225mm) on Top And Via (13.892mm,-20.727mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.144mm < 0.15mm) Between Track (-13.369mm,-16.472mm)(-13.369mm,-13.856mm) on Top And Via (-12.825mm,-15.664mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.143mm < 0.15mm) Between Track (13.685mm,-20.225mm)(14.15mm,-19.761mm) on Top And Via (13.892mm,-20.727mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-14.32mm,-18.995mm)(-14.32mm,-18.581mm) on Bottom And Via (-14.82mm,-18.788mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-14.353mm,-13.861mm)(-13.992mm,-13.5mm) on Bottom And Track (-14.653mm,-16.239mm)(-14.653mm,-10.466mm) on Bottom 
+   Violation between Clearance Constraint: (0.124mm < 0.15mm) Between Track (-14.488mm,-18.413mm)(-13.702mm,-18.413mm) on Top And Track (-15.093mm,-17.384mm)(-14.388mm,-18.089mm) on Top 
+   Violation between Clearance Constraint: (0.101mm < 0.15mm) Between Track (-14.488mm,-18.413mm)(-13.702mm,-18.413mm) on Top And Via (-14.82mm,-18.788mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-14.853mm,-16.439mm)(-14.653mm,-16.239mm) on Bottom And Track (-14.986mm,-16.147mm)(-14.986mm,-9.309mm) on Bottom 
+   Violation between Clearance Constraint: (0.121mm < 0.15mm) Between Track (-14.853mm,-16.854mm)(-14.853mm,-16.439mm) on Bottom And Track (-14.986mm,-16.147mm)(-14.986mm,-9.309mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-14.853mm,-19.528mm)(-14.32mm,-18.995mm) on Bottom And Via (-14.82mm,-18.788mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.129mm < 0.15mm) Between Track (-14.853mm,-24.244mm)(-14.477mm,-24.62mm) on Bottom And Track (-15.182mm,-24.446mm)(-15.182mm,-19.756mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-14.853mm,-24.244mm)(-14.477mm,-24.62mm) on Bottom And Via (-14.353mm,-24.037mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.129mm < 0.15mm) Between Track (-14.853mm,-24.244mm)(-14.853mm,-19.528mm) on Bottom And Track (-15.182mm,-24.446mm)(-15.182mm,-19.756mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-14.853mm,-24.244mm)(-14.853mm,-19.528mm) on Bottom And Via (-14.353mm,-24.037mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-14.869mm,-13.356mm)(-14.669mm,-13.356mm) on Top And Track (-16.618mm,-14.68mm)(-14.893mm,-12.956mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-14.893mm,-12.956mm)(-14.669mm,-12.956mm) on Top And Track (-16.918mm,-14.556mm)(-14.918mm,-12.556mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-15.093mm,-17.384mm)(-14.388mm,-18.089mm) on Top And Track (-15.2mm,-17.701mm)(-14.488mm,-18.413mm) on Top 
+   Violation between Clearance Constraint: (0.123mm < 0.15mm) Between Track (-15.153mm,-17.748mm)(-14.32mm,-18.581mm) on Bottom And Track (-15.476mm,-18.132mm)(-15.476mm,-16.757mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-15.153mm,-17.748mm)(-14.32mm,-18.581mm) on Bottom And Via (-14.82mm,-18.788mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.123mm < 0.15mm) Between Track (-15.153mm,-17.748mm)(-15.153mm,-16.315mm) on Bottom And Track (-15.476mm,-18.132mm)(-15.476mm,-16.757mm) on Bottom 
+   Violation between Clearance Constraint: (0.123mm < 0.15mm) Between Track (-15.153mm,-17.748mm)(-15.153mm,-16.315mm) on Bottom And Track (-16.156mm,-16.077mm)(-15.476mm,-16.757mm) on Bottom 
+   Violation between Clearance Constraint: (0.106mm < 0.15mm) Between Track (-15.184mm,-7.661mm)(-15.184mm,-7.281mm) on Top And Via (-14.677mm,-7.594mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.117mm < 0.15mm) Between Track (-15.2mm,-17.701mm)(-14.488mm,-18.413mm) on Top And Track (-16.076mm,-17.384mm)(-15.093mm,-17.384mm) on Top 
+   Violation between Clearance Constraint: (0.101mm < 0.15mm) Between Track (-15.2mm,-17.701mm)(-14.488mm,-18.413mm) on Top And Via (-14.82mm,-18.788mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-15.486mm,-8.915mm)(-15.107mm,-8.537mm) on Top And Track (-15.786mm,-9.916mm)(-15.786mm,-8.69mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-15.486mm,-9.516mm)(-14.669mm,-10.333mm) on Top And Track (-15.786mm,-9.916mm)(-15.786mm,-8.69mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-15.486mm,-9.516mm)(-14.669mm,-10.333mm) on Top And Via (-14.986mm,-9.309mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-15.486mm,-9.516mm)(-15.486mm,-8.915mm) on Top And Track (-15.786mm,-9.916mm)(-15.786mm,-8.69mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-15.486mm,-9.516mm)(-15.486mm,-8.915mm) on Top And Via (-14.986mm,-9.309mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-15.704mm,-8.609mm)(-15.704mm,-8.606mm) on Top And Track (-15.998mm,-8.476mm)(-15.184mm,-7.661mm) on Top 
+   Violation between Clearance Constraint: (0.102mm < 0.15mm) Between Track (-15.786mm,-8.69mm)(-15.704mm,-8.609mm) on Top And Track (-15.998mm,-8.476mm)(-15.184mm,-7.661mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-15.786mm,-8.69mm)(-15.704mm,-8.609mm) on Top And Track (-16.086mm,-8.566mm)(-16.004mm,-8.485mm) on Top 
+   Violation between Clearance Constraint: (0.102mm < 0.15mm) Between Track (-15.786mm,-9.916mm)(-15.786mm,-8.69mm) on Top And Track (-15.998mm,-8.476mm)(-15.184mm,-7.661mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-15.786mm,-9.916mm)(-15.786mm,-8.69mm) on Top And Track (-16.086mm,-8.566mm)(-16.004mm,-8.485mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-15.786mm,-9.916mm)(-15.786mm,-8.69mm) on Top And Track (-16.418mm,-10.068mm)(-16.086mm,-9.736mm) on Top 
+   Violation between Clearance Constraint: (0.111mm < 0.15mm) Between Track (-15.998mm,-8.476mm)(-15.184mm,-7.661mm) on Top And Via (-14.677mm,-7.594mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.117mm < 0.15mm) Between Track (-16.076mm,-17.384mm)(-15.093mm,-17.384mm) on Top And Track (-16.343mm,-17.701mm)(-15.2mm,-17.701mm) on Top 
+   Violation between Clearance Constraint: (0.14mm < 0.15mm) Between Track (-16.094mm,-10.225mm)(-15.786mm,-9.916mm) on Top And Track (-16.418mm,-10.068mm)(-16.086mm,-9.736mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-16.094mm,-10.965mm)(-15.703mm,-11.356mm) on Top And Track (-16.418mm,-11.065mm)(-15.727mm,-11.756mm) on Top 
+   Violation between Clearance Constraint: (0.14mm < 0.15mm) Between Track (-16.094mm,-10.965mm)(-16.094mm,-10.225mm) on Top And Track (-16.418mm,-10.068mm)(-16.086mm,-9.736mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-16.094mm,-10.965mm)(-16.094mm,-10.225mm) on Top And Track (-16.418mm,-11.065mm)(-15.727mm,-11.756mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-16.094mm,-10.965mm)(-16.094mm,-10.225mm) on Top And Via (-15.594mm,-10.582mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-16.318mm,-14.804mm)(-14.869mm,-13.356mm) on Top And Track (-16.618mm,-14.68mm)(-14.893mm,-12.956mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-16.318mm,-14.804mm)(-14.869mm,-13.356mm) on Top And Track (-16.618mm,-15.48mm)(-16.618mm,-14.68mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-16.318mm,-15.604mm)(-16.318mm,-14.804mm) on Top And Track (-16.796mm,-15.658mm)(-16.618mm,-15.48mm) on Top 
+   Violation between Clearance Constraint: (0.143mm < 0.15mm) Between Track (-16.343mm,-17.701mm)(-15.2mm,-17.701mm) on Top And Track (-16.424mm,-18.044mm)(-16.255mm,-18.044mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-16.343mm,-17.701mm)(-15.2mm,-17.701mm) on Top And Track (-17.096mm,-17.372mm)(-16.424mm,-18.044mm) on Top 
+   Violation between Clearance Constraint: (0.143mm < 0.15mm) Between Track (-16.424mm,-18.044mm)(-16.255mm,-18.044mm) on Top And Track (-16.796mm,-17.248mm)(-16.343mm,-17.701mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-16.496mm,-15.782mm)(-16.318mm,-15.604mm) on Top And Track (-16.618mm,-15.48mm)(-16.618mm,-14.68mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-16.496mm,-15.782mm)(-16.318mm,-15.604mm) on Top And Track (-16.796mm,-15.658mm)(-16.618mm,-15.48mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-16.496mm,-15.782mm)(-16.318mm,-15.604mm) on Top And Track (-16.796mm,-17.248mm)(-16.796mm,-15.658mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-16.618mm,-14.68mm)(-14.893mm,-12.956mm) on Top And Track (-16.918mm,-14.556mm)(-14.918mm,-12.556mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-16.618mm,-14.68mm)(-14.893mm,-12.956mm) on Top And Track (-16.918mm,-15.188mm)(-16.918mm,-14.556mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-16.618mm,-15.48mm)(-16.618mm,-14.68mm) on Top And Track (-16.918mm,-14.556mm)(-14.918mm,-12.556mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-16.618mm,-15.48mm)(-16.618mm,-14.68mm) on Top And Track (-16.918mm,-15.188mm)(-16.918mm,-14.556mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-16.618mm,-15.48mm)(-16.618mm,-14.68mm) on Top And Track (-17.001mm,-15.27mm)(-16.918mm,-15.188mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-16.796mm,-17.248mm)(-16.343mm,-17.701mm) on Top And Track (-17.096mm,-17.372mm)(-16.424mm,-18.044mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-16.796mm,-17.248mm)(-16.343mm,-17.701mm) on Top And Track (-17.096mm,-17.372mm)(-17.096mm,-17.203mm) on Top 
+   Violation between Clearance Constraint: (0.103mm < 0.15mm) Between Track (-16.796mm,-17.248mm)(-16.343mm,-17.701mm) on Top And Track (-17.663mm,-16.637mm)(-17.096mm,-17.203mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-16.796mm,-17.248mm)(-16.796mm,-15.658mm) on Top And Track (-17.096mm,-17.372mm)(-16.424mm,-18.044mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-16.796mm,-17.248mm)(-16.796mm,-15.658mm) on Top And Track (-17.096mm,-17.372mm)(-17.096mm,-17.203mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-16.796mm,-17.248mm)(-16.796mm,-15.658mm) on Top And Track (-17.663mm,-16.637mm)(-17.096mm,-17.203mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-2.078mm,-27.899mm)(-0.773mm,-29.204mm) on Bottom And Track (-3.444mm,-28.199mm)(-2.202mm,-28.199mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-2.143mm,-29.92mm)(-1.924mm,-29.701mm) on Top And Track (-2.443mm,-30.092mm)(-2.443mm,-28.776mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (2.189mm,-26.277mm)(2.972mm,-26.277mm) on Top And Via (2.423mm,-26.777mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (2.608mm,-27.299mm)(2.923mm,-26.984mm) on Bottom And Track (2.732mm,-27.599mm)(3.223mm,-27.109mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (2.608mm,-27.299mm)(2.923mm,-26.984mm) on Bottom And Track (-3.196mm,-27.599mm)(2.732mm,-27.599mm) on Bottom 
+   Violation between Clearance Constraint: (0.141mm < 0.15mm) Between Track (2.608mm,-27.299mm)(2.923mm,-26.984mm) on Bottom And Track (3.223mm,-26.821mm)(3.516mm,-26.528mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (2.608mm,-27.299mm)(2.923mm,-26.984mm) on Bottom And Track (3.223mm,-27.109mm)(3.223mm,-26.821mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (2.608mm,-27.299mm)(2.923mm,-26.984mm) on Bottom And Via (2.423mm,-26.777mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (2.732mm,-27.599mm)(3.223mm,-27.109mm) on Bottom And Track (2.923mm,-26.984mm)(2.923mm,-26.697mm) on Bottom 
+   Violation between Clearance Constraint: (0.106mm < 0.15mm) Between Track (2.732mm,-27.599mm)(3.223mm,-27.109mm) on Bottom And Via (3.723mm,-27.028mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.112mm < 0.15mm) Between Track (-2.814mm,-29.024mm)(-1.805mm,-30.033mm) on Bottom And Track (-3.639mm,-28.711mm)(-2.42mm,-28.711mm) on Bottom 
+   Violation between Clearance Constraint: (0.106mm < 0.15mm) Between Track (2.923mm,-26.697mm)(3.391mm,-26.228mm) on Bottom And Via (2.423mm,-26.777mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (2.923mm,-26.984mm)(2.923mm,-26.697mm) on Bottom And Track (3.223mm,-26.821mm)(3.516mm,-26.528mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (2.923mm,-26.984mm)(2.923mm,-26.697mm) on Bottom And Via (2.423mm,-26.777mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-2.93mm,-32.858mm)(-2.062mm,-32.858mm) on Bottom And Via (-2.723mm,-32.358mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-3.054mm,-33.158mm)(-2.187mm,-33.158mm) on Bottom And Track (-3.741mm,-32.047mm)(-2.93mm,-32.858mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-3.071mm,-27.299mm)(2.608mm,-27.299mm) on Bottom And Track (-3.196mm,-27.599mm)(2.732mm,-27.599mm) on Bottom 
+   Violation between Clearance Constraint: (0.122mm < 0.15mm) Between Track (-3.071mm,-27.299mm)(2.608mm,-27.299mm) on Bottom And Via (2.423mm,-26.777mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.126mm < 0.15mm) Between Track (-3.127mm,-31.189mm)(-3.127mm,-30.775mm) on Top And Track (-3.453mm,-31.536mm)(-3.453mm,-30.533mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-3.154mm,-29.324mm)(-1.851mm,-30.627mm) on Bottom And Track (-4.316mm,-29.024mm)(-2.814mm,-29.024mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-3.196mm,-27.599mm)(2.732mm,-27.599mm) on Bottom And Track (-3.325mm,-27.045mm)(-3.071mm,-27.299mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-3.196mm,-27.599mm)(2.732mm,-27.599mm) on Bottom And Track (-3.32mm,-27.899mm)(-2.078mm,-27.899mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-3.196mm,-27.599mm)(2.732mm,-27.599mm) on Bottom And Track (-3.574mm,-27.645mm)(-3.32mm,-27.899mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (3.198mm,-29.165mm)(3.198mm,-27.558mm) on Bottom And Via (2.698mm,-28.452mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (3.223mm,-26.821mm)(3.516mm,-26.528mm) on Bottom And Track (3.391mm,-26.228mm)(4.054mm,-26.228mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (3.223mm,-26.821mm)(3.516mm,-26.528mm) on Bottom And Via (3.723mm,-27.028mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (3.223mm,-27.109mm)(3.223mm,-26.821mm) on Bottom And Via (3.723mm,-27.028mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-3.325mm,-27.045mm)(-3.071mm,-27.299mm) on Bottom And Track (-4.162mm,-27.345mm)(-3.45mm,-27.345mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-3.32mm,-27.899mm)(-2.078mm,-27.899mm) on Bottom And Track (-3.444mm,-28.199mm)(-2.202mm,-28.199mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-3.32mm,-27.899mm)(-2.078mm,-27.899mm) on Bottom And Track (-3.45mm,-27.345mm)(-3.196mm,-27.599mm) on Bottom 
+   Violation between Clearance Constraint: (0.139mm < 0.15mm) Between Track (-3.32mm,-27.899mm)(-2.078mm,-27.899mm) on Bottom And Track (-4.357mm,-27.999mm)(-3.644mm,-27.999mm) on Bottom 
+   Violation between Clearance Constraint: (0.128mm < 0.15mm) Between Track (-3.351mm,-28.67mm)(-2.929mm,-29.093mm) on Top And Via (-3.851mm,-28.499mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-3.351mm,-28.67mm)(-3.351mm,-28.292mm) on Top And Via (-3.851mm,-28.499mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (3.391mm,-26.228mm)(4.054mm,-26.228mm) on Bottom And Track (3.516mm,-26.528mm)(3.93mm,-26.528mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (3.391mm,-26.228mm)(4.054mm,-26.228mm) on Bottom And Track (3.93mm,-26.528mm)(4.064mm,-26.662mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-3.444mm,-28.199mm)(-2.202mm,-28.199mm) on Bottom And Track (-3.574mm,-27.645mm)(-3.32mm,-27.899mm) on Bottom 
+   Violation between Clearance Constraint: (0.106mm < 0.15mm) Between Track (-3.444mm,-28.199mm)(-2.202mm,-28.199mm) on Bottom And Via (-3.851mm,-28.499mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (3.516mm,-26.528mm)(3.93mm,-26.528mm) on Bottom And Track (4.054mm,-26.228mm)(4.188mm,-26.362mm) on Bottom 
+   Violation between Clearance Constraint: (0.107mm < 0.15mm) Between Track (3.516mm,-26.528mm)(3.93mm,-26.528mm) on Bottom And Track (4.188mm,-26.362mm)(5.413mm,-26.362mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (3.516mm,-26.528mm)(3.93mm,-26.528mm) on Bottom And Via (3.723mm,-27.028mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-3.574mm,-27.645mm)(-3.32mm,-27.899mm) on Bottom And Track (-4.162mm,-27.345mm)(-3.45mm,-27.345mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-3.574mm,-27.645mm)(-3.32mm,-27.899mm) on Bottom And Track (-4.357mm,-27.999mm)(-3.644mm,-27.999mm) on Bottom 
+   Violation between Clearance Constraint: (0.112mm < 0.15mm) Between Track (-3.639mm,-28.711mm)(-2.42mm,-28.711mm) on Bottom And Track (-4.316mm,-29.024mm)(-2.814mm,-29.024mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-3.644mm,-27.999mm)(-3.351mm,-28.292mm) on Top And Via (-3.851mm,-28.499mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-3.644mm,-27.999mm)(-3.444mm,-28.199mm) on Bottom And Via (-3.851mm,-28.499mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (3.69mm,-31.824mm)(3.69mm,-27.923mm) on Bottom And Track (3.99mm,-28.33mm)(4.857mm,-27.462mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (3.69mm,-31.824mm)(3.69mm,-27.923mm) on Bottom And Track (3.99mm,-31.948mm)(3.99mm,-28.33mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-3.741mm,-32.047mm)(-2.93mm,-32.858mm) on Bottom And Track (-3.865mm,-32.347mm)(-3.054mm,-33.158mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-3.741mm,-32.047mm)(-2.93mm,-32.858mm) on Bottom And Track (-5.474mm,-32.347mm)(-3.865mm,-32.347mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-3.741mm,-32.047mm)(-2.93mm,-32.858mm) on Bottom And Via (-2.723mm,-32.358mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.112mm < 0.15mm) Between Track (-3.851mm,-28.499mm)(-3.639mm,-28.711mm) on Bottom And Track (-4.316mm,-29.024mm)(-2.814mm,-29.024mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-3.865mm,-32.347mm)(-3.054mm,-33.158mm) on Bottom And Track (-5.268mm,-32.047mm)(-3.741mm,-32.047mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (3.93mm,-26.528mm)(4.064mm,-26.662mm) on Bottom And Track (4.054mm,-26.228mm)(4.188mm,-26.362mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (3.93mm,-26.528mm)(4.064mm,-26.662mm) on Bottom And Track (4.188mm,-26.362mm)(5.413mm,-26.362mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (3.93mm,-26.528mm)(4.064mm,-26.662mm) on Bottom And Via (3.723mm,-27.028mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.148mm < 0.15mm) Between Track (3.99mm,-31.948mm)(3.99mm,-28.33mm) on Bottom And Via (4.538mm,-31.349mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-4.013mm,-29.324mm)(-3.644mm,-29.693mm) on Top And Track (-4.755mm,-29.024mm)(-3.635mm,-29.024mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (4.054mm,-26.228mm)(4.188mm,-26.362mm) on Bottom And Track (4.064mm,-26.662mm)(5.537mm,-26.662mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (4.064mm,-26.662mm)(5.537mm,-26.662mm) on Bottom And Track (4.188mm,-26.362mm)(5.413mm,-26.362mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (4.064mm,-26.662mm)(5.537mm,-26.662mm) on Bottom And Via (3.723mm,-27.028mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-4.15mm,-30.224mm)(-1.585mm,-32.788mm) on Bottom And Track (-4.688mm,-29.924mm)(-3.711mm,-29.924mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-4.15mm,-30.224mm)(-1.585mm,-32.788mm) on Bottom And Via (-2.723mm,-32.358mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-4.162mm,-27.345mm)(-3.45mm,-27.345mm) on Bottom And Track (-4.287mm,-27.645mm)(-3.574mm,-27.645mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-4.162mm,-27.345mm)(-3.45mm,-27.345mm) on Bottom And Track (-5.694mm,-25.389mm)(-4.038mm,-27.045mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-4.162mm,-27.345mm)(-3.45mm,-27.345mm) on Bottom And Track (-6.294mm,-25.638mm)(-4.287mm,-27.645mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (4.188mm,-26.362mm)(5.413mm,-26.362mm) on Bottom And Track (5.537mm,-26.662mm)(7.111mm,-25.089mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (4.188mm,-26.362mm)(5.413mm,-26.362mm) on Bottom And Via (5.206mm,-25.862mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-4.287mm,-27.645mm)(-3.574mm,-27.645mm) on Bottom And Track (-5.994mm,-25.514mm)(-4.162mm,-27.345mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-4.287mm,-27.645mm)(-3.574mm,-27.645mm) on Bottom And Track (-6.95mm,-25.406mm)(-4.357mm,-27.999mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-4.316mm,-29.024mm)(-2.814mm,-29.024mm) on Bottom And Track (-4.44mm,-29.324mm)(-3.154mm,-29.324mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-4.316mm,-29.024mm)(-2.814mm,-29.024mm) on Bottom And Track (-6.816mm,-26.948mm)(-4.44mm,-29.324mm) on Bottom 
+   Violation between Clearance Constraint: (0.124mm < 0.15mm) Between Track (-4.316mm,-29.024mm)(-2.814mm,-29.024mm) on Bottom And Via (-3.851mm,-28.499mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-4.357mm,-27.999mm)(-3.644mm,-27.999mm) on Bottom And Track (-7.45mm,-25.33mm)(-4.281mm,-28.499mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-4.357mm,-27.999mm)(-3.644mm,-27.999mm) on Bottom And Via (-3.851mm,-28.499mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-4.365mm,-27.999mm)(-3.644mm,-27.999mm) on Top And Via (-3.851mm,-28.499mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-4.44mm,-29.324mm)(-3.154mm,-29.324mm) on Bottom And Track (-6.94mm,-27.248mm)(-4.564mm,-29.624mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-4.564mm,-29.624mm)(-3.278mm,-29.624mm) on Bottom And Track (-4.688mm,-29.924mm)(-3.711mm,-29.924mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-4.564mm,-29.624mm)(-3.278mm,-29.624mm) on Bottom And Track (-7.064mm,-27.548mm)(-4.688mm,-29.924mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (4.65mm,-26.962mm)(5.662mm,-26.962mm) on Bottom And Track (5.537mm,-26.662mm)(7.111mm,-25.089mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-4.688mm,-29.924mm)(-3.711mm,-29.924mm) on Bottom And Track (-6.94mm,-27.248mm)(-4.564mm,-29.624mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-4.688mm,-29.924mm)(-3.711mm,-29.924mm) on Bottom And Track (-7.189mm,-27.848mm)(-4.813mm,-30.224mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-4.755mm,-29.024mm)(-3.635mm,-29.024mm) on Top And Track (-5.162mm,-29.324mm)(-4.013mm,-29.324mm) on Top 
+   Violation between Clearance Constraint: (0.124mm < 0.15mm) Between Track (-4.755mm,-29.024mm)(-3.635mm,-29.024mm) on Top And Via (-3.851mm,-28.499mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-4.813mm,-30.224mm)(-4.15mm,-30.224mm) on Bottom And Via (-4.669mm,-30.724mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-5.268mm,-32.047mm)(-3.741mm,-32.047mm) on Bottom And Track (-5.474mm,-32.347mm)(-3.865mm,-32.347mm) on Bottom 
+   Violation between Clearance Constraint: (0.121mm < 0.15mm) Between Track (-5.27mm,-31.244mm)(-3.836mm,-31.244mm) on Bottom And Via (-4.669mm,-30.724mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (5.413mm,-26.362mm)(6.611mm,-25.164mm) on Bottom And Via (5.206mm,-25.862mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.135mm < 0.15mm) Between Track (5.413mm,-26.362mm)(6.611mm,-25.164mm) on Bottom And Via (7.111mm,-24.975mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (5.537mm,-26.662mm)(7.111mm,-25.089mm) on Bottom And Track (5.662mm,-26.962mm)(6.841mm,-25.783mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (5.537mm,-26.662mm)(7.111mm,-25.089mm) on Bottom And Track (6.611mm,-25.164mm)(6.611mm,-24.733mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (5.537mm,-26.662mm)(7.111mm,-25.089mm) on Bottom And Track (6.841mm,-25.783mm)(8.704mm,-25.783mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-5.605mm,-31.71mm)(-4.238mm,-31.71mm) on Top And Via (-5.242mm,-31.21mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.118mm < 0.15mm) Between Track (-5.676mm,-24.694mm)(-5.676mm,-24.528mm) on Bottom And Track (-5.994mm,-25.514mm)(-5.994mm,-24.7mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-5.694mm,-24.712mm)(-5.676mm,-24.694mm) on Bottom And Track (-5.994mm,-25.514mm)(-5.994mm,-24.7mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-5.694mm,-25.389mm)(-4.038mm,-27.045mm) on Bottom And Track (-5.994mm,-25.514mm)(-5.994mm,-24.7mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-5.694mm,-25.389mm)(-5.694mm,-24.712mm) on Bottom And Track (-5.994mm,-25.514mm)(-5.994mm,-24.7mm) on Bottom 
+   Violation between Clearance Constraint: (0.125mm < 0.15mm) Between Track (-5.742mm,-31.269mm)(-5.711mm,-31.603mm) on Bottom And Track (-6.042mm,-31.145mm)(-6.042mm,-30.989mm) on Bottom 
+   Violation between Clearance Constraint: (0.128mm < 0.15mm) Between Track (-5.742mm,-31.269mm)(-5.711mm,-31.603mm) on Bottom And Track (-6.07mm,-31.75mm)(-6.07mm,-31.178mm) on Bottom 
+   Violation between Clearance Constraint: (0.104mm < 0.15mm) Between Track (-5.742mm,-31.269mm)(-5.711mm,-31.603mm) on Bottom And Via (-5.242mm,-31.21mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-5.742mm,-31.269mm)(-5.742mm,-30.865mm) on Bottom And Track (-6.042mm,-31.145mm)(-6.042mm,-30.989mm) on Bottom 
+   Violation between Clearance Constraint: (0.128mm < 0.15mm) Between Track (-5.742mm,-31.269mm)(-5.742mm,-30.865mm) on Bottom And Track (-6.07mm,-31.75mm)(-6.07mm,-31.178mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-5.742mm,-31.269mm)(-5.742mm,-30.865mm) on Bottom And Track (-6.107mm,-30.924mm)(-6.042mm,-30.989mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-5.742mm,-31.269mm)(-5.742mm,-30.865mm) on Bottom And Via (-5.242mm,-31.21mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.115mm < 0.15mm) Between Track (-5.816mm,-30.767mm)(-5.742mm,-30.865mm) on Bottom And Track (-6.042mm,-31.145mm)(-6.042mm,-30.989mm) on Bottom 
+   Violation between Clearance Constraint: (0.115mm < 0.15mm) Between Track (-5.816mm,-30.767mm)(-5.742mm,-30.865mm) on Bottom And Track (-6.107mm,-30.924mm)(-6.042mm,-30.989mm) on Bottom 
+   Violation between Clearance Constraint: (0.131mm < 0.15mm) Between Track (-5.816mm,-30.767mm)(-5.742mm,-30.865mm) on Bottom And Track (-6.206mm,-30.841mm)(-6.107mm,-30.924mm) on Bottom 
+   Violation between Clearance Constraint: (0.123mm < 0.15mm) Between Track (5.883mm,-27.886mm)(6.09mm,-28.092mm) on Top And Via (6.231mm,-28.596mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-5.994mm,-25.514mm)(-4.162mm,-27.345mm) on Bottom And Track (-6.294mm,-25.638mm)(-6.294mm,-24.825mm) on Bottom 
+   Violation between Clearance Constraint: (0.147mm < 0.15mm) Between Track (-5.994mm,-25.514mm)(-5.994mm,-24.7mm) on Bottom And Track (-6.072mm,-24.132mm)(-5.676mm,-24.528mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-5.994mm,-25.514mm)(-5.994mm,-24.7mm) on Bottom And Track (-6.294mm,-25.638mm)(-6.294mm,-24.825mm) on Bottom 
+   Violation between Clearance Constraint: (0.103mm < 0.15mm) Between Track (6.09mm,-28.092mm)(6.831mm,-28.092mm) on Top And Via (6.231mm,-28.596mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.137mm < 0.15mm) Between Track (-6.147mm,-28.968mm)(-5.388mm,-29.727mm) on Top And Via (-6.142mm,-29.733mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-6.294mm,-25.638mm)(-6.294mm,-24.825mm) on Bottom And Track (-6.631mm,-24.064mm)(-5.994mm,-24.7mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-6.294mm,-25.638mm)(-6.294mm,-24.825mm) on Bottom And Track (-6.95mm,-25.406mm)(-4.357mm,-27.999mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-6.331mm,-23.939mm)(-6.139mm,-24.132mm) on Bottom And Track (-6.631mm,-24.064mm)(-6.631mm,-23.766mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-6.331mm,-23.939mm)(-6.331mm,-23.642mm) on Bottom And Track (-6.631mm,-24.064mm)(-6.631mm,-23.766mm) on Bottom 
+   Violation between Clearance Constraint: (0.125mm < 0.15mm) Between Track (6.595mm,-26.475mm)(7.152mm,-26.475mm) on Top And Track (7.001mm,-27.086mm)(7.542mm,-26.544mm) on Top 
+   Violation between Clearance Constraint: (0.124mm < 0.15mm) Between Track (6.611mm,-24.733mm)(7.074mm,-24.27mm) on Bottom And Via (7.111mm,-24.975mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (6.611mm,-25.164mm)(6.611mm,-24.733mm) on Bottom And Via (7.111mm,-24.975mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-6.631mm,-24.064mm)(-6.631mm,-23.766mm) on Bottom And Track (-6.931mm,-24.188mm)(-6.931mm,-23.89mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (6.649mm,-23.984mm)(6.841mm,-23.791mm) on Bottom And Via (6.231mm,-23.708mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (6.649mm,-24.201mm)(6.649mm,-23.984mm) on Bottom And Via (6.231mm,-23.708mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.11mm < 0.15mm) Between Track (-6.739mm,-26.648mm)(-6.692mm,-26.648mm) on Bottom And Track (-6.816mm,-26.948mm)(-4.44mm,-29.324mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-6.739mm,-26.648mm)(-6.692mm,-26.648mm) on Bottom And Track (-8.852mm,-24.959mm)(-6.863mm,-26.948mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-6.816mm,-26.948mm)(-4.44mm,-29.324mm) on Bottom And Track (-6.94mm,-27.248mm)(-4.564mm,-29.624mm) on Bottom 
+   Violation between Clearance Constraint: (0.11mm < 0.15mm) Between Track (-6.816mm,-26.948mm)(-4.44mm,-29.324mm) on Bottom And Track (-7.901mm,-25.485mm)(-6.739mm,-26.648mm) on Bottom 
+   Violation between Clearance Constraint: (0.11mm < 0.15mm) Between Track (-6.863mm,-26.948mm)(-6.816mm,-26.948mm) on Bottom And Track (-6.94mm,-27.248mm)(-4.564mm,-29.624mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-6.868mm,-29.714mm)(-6.252mm,-30.33mm) on Top And Via (-6.142mm,-29.733mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-6.931mm,-24.188mm)(-6.931mm,-23.89mm) on Bottom And Track (-7.231mm,-24.429mm)(-7.231mm,-24.015mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-6.94mm,-27.248mm)(-4.564mm,-29.624mm) on Bottom And Track (-7.064mm,-27.548mm)(-4.688mm,-29.924mm) on Bottom 
+   Violation between Clearance Constraint: (0.11mm < 0.15mm) Between Track (-6.94mm,-27.248mm)(-4.564mm,-29.624mm) on Bottom And Track (-8.852mm,-24.959mm)(-6.863mm,-26.948mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-6.95mm,-25.406mm)(-4.357mm,-27.999mm) on Bottom And Track (-7.45mm,-25.33mm)(-4.281mm,-28.499mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-7.064mm,-27.548mm)(-4.688mm,-29.924mm) on Bottom And Track (-7.189mm,-27.848mm)(-4.813mm,-30.224mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-7.064mm,-27.548mm)(-4.688mm,-29.924mm) on Bottom And Track (-7.222mm,-27.248mm)(-6.94mm,-27.248mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-7.064mm,-27.548mm)(-4.688mm,-29.924mm) on Bottom And Track (-8.115mm,-27.848mm)(-7.189mm,-27.848mm) on Bottom 
+   Violation between Clearance Constraint: (0.139mm < 0.15mm) Between Track (-7.064mm,-27.548mm)(-4.688mm,-29.924mm) on Bottom And Track (-9.012mm,-25.458mm)(-7.222mm,-27.248mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-7.189mm,-27.848mm)(-4.813mm,-30.224mm) on Bottom And Track (-7.347mm,-27.548mm)(-7.064mm,-27.548mm) on Bottom 
+   Violation between Clearance Constraint: (0.139mm < 0.15mm) Between Track (-7.189mm,-27.848mm)(-4.813mm,-30.224mm) on Bottom And Track (-8.714mm,-26.18mm)(-7.347mm,-27.548mm) on Bottom 
+   Violation between Clearance Constraint: (0.12mm < 0.15mm) Between Track (-7.189mm,-27.848mm)(-4.813mm,-30.224mm) on Bottom And Via (-4.669mm,-30.724mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-7.222mm,-27.248mm)(-6.94mm,-27.248mm) on Bottom And Track (-8.714mm,-26.18mm)(-7.347mm,-27.548mm) on Bottom 
+   Violation between Clearance Constraint: (0.11mm < 0.15mm) Between Track (7.552mm,-25.233mm)(8.449mm,-24.336mm) on Top And Via (7.111mm,-24.975mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.11mm < 0.15mm) Between Track (7.552mm,-25.675mm)(7.552mm,-25.233mm) on Top And Via (7.111mm,-24.975mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-7.901mm,-25.485mm)(-6.739mm,-26.648mm) on Bottom And Track (-8.852mm,-24.959mm)(-6.863mm,-26.948mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-7.901mm,-25.485mm)(-7.901mm,-24.866mm) on Bottom And Track (-8.852mm,-24.959mm)(-6.863mm,-26.948mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-8.115mm,-27.848mm)(-7.189mm,-27.848mm) on Bottom And Track (-8.714mm,-26.18mm)(-7.347mm,-27.548mm) on Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (8.545mm,-24.175mm)(9.189mm,-24.175mm) on Bottom And Via (8.982mm,-24.675mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-8.707mm,-21.685mm)(-8.707mm,-21.094mm) on Top And Track (-8.788mm,-20.589mm)(-7.244mm,-22.133mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-8.714mm,-26.18mm)(-7.347mm,-27.548mm) on Bottom And Track (-9.012mm,-25.458mm)(-7.222mm,-27.248mm) on Bottom 
+   Violation between Clearance Constraint: (0.148mm < 0.15mm) Between Track (8.904mm,-22.319mm)(9.163mm,-22.06mm) on Top And Track (9.466mm,-22.23mm)(9.919mm,-21.777mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (8.904mm,-22.319mm)(9.163mm,-22.06mm) on Top And Via (8.407mm,-22.269mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (8.904mm,-22.51mm)(8.904mm,-22.319mm) on Top And Via (8.407mm,-22.269mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (8.982mm,-23.759mm)(9.904mm,-22.836mm) on Top And Via (9.864mm,-23.584mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-9.012mm,-25.458mm)(-7.222mm,-27.248mm) on Bottom And Track (-9.075mm,-26.18mm)(-8.714mm,-26.18mm) on Bottom 
+   Violation between Clearance Constraint: (0.148mm < 0.15mm) Between Track (9.163mm,-22.06mm)(9.163mm,-21.905mm) on Top And Track (9.466mm,-22.23mm)(9.919mm,-21.777mm) on Top 
+   Violation between Clearance Constraint: (0.148mm < 0.15mm) Between Track (9.163mm,-22.06mm)(9.163mm,-21.905mm) on Top And Track (9.466mm,-22.464mm)(9.466mm,-22.23mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (9.189mm,-24.175mm)(9.482mm,-24.468mm) on Bottom And Via (8.982mm,-24.675mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-9.277mm,-13.632mm)(-9.277mm,-13.217mm) on Bottom And Via (-9.777mm,-13.425mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-9.279mm,-19.051mm)(-8.59mm,-19.741mm) on Bottom And Via (-9.57mm,-19.468mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.108mm < 0.15mm) Between Track (-9.279mm,-19.051mm)(-9.279mm,-19.051mm) on Bottom And Via (-9.57mm,-19.468mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (9.482mm,-25.005mm)(9.482mm,-24.468mm) on Bottom And Via (8.982mm,-24.675mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.141mm < 0.15mm) Between Track (-9.571mm,-13.925mm)(-9.57mm,-13.925mm) on Bottom And Via (-9.777mm,-13.425mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-9.57mm,-12.925mm)(-9.277mm,-13.217mm) on Bottom And Via (-9.777mm,-13.425mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-9.57mm,-13.925mm)(-9.277mm,-13.632mm) on Bottom And Via (-9.777mm,-13.425mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.108mm < 0.15mm) Between Track (-9.581mm,-18.75mm)(-9.279mm,-19.051mm) on Bottom And Via (-9.57mm,-19.468mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.141mm < 0.15mm) Between Track (-9.858mm,-25.9mm)(-9.858mm,-25.056mm) on Top And Via (-9.317mm,-25.436mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-9.858mm,-26.104mm)(-8.115mm,-27.848mm) on Bottom And Via (-9.075mm,-26.18mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-9.889mm,-17.649mm)(-9.115mm,-18.423mm) on Bottom And Via (-9.389mm,-17.442mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-9.889mm,-17.649mm)(-9.889mm,-16.369mm) on Bottom And Via (-9.389mm,-17.442mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Track (-9.99mm,-18.811mm)(-9.99mm,-18.397mm) on Bottom And Via (-10.49mm,-18.604mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.125mm < 0.15mm) Between Via (-0.016mm,-32.415mm) from Top to Bottom And Via (0.698mm,-32.288mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.113mm < 0.15mm) Between Via (-8.431mm,-24.336mm) from Top to Bottom And Via (-8.852mm,-24.911mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.101mm < 0.15mm) Between Via (-8.852mm,-24.911mm) from Top to Bottom And Via (-9.317mm,-25.436mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.112mm < 0.15mm) Between Via (-9.317mm,-25.436mm) from Top to Bottom And Via (-9.858mm,-25.9mm) from Top to Bottom 
+Rule Violations :427
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InNet('Neta1_1')  OR    InNet('NetC69_2')    OR        InNet('RF_P')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (OnLayer('Keep-Out Layer')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=Yes) (InNet('NetAE1_1')),(InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net NetANT_1 Between Pad ANT-1(0.575mm,-0.7mm) on Top And Pad ANT-1(2.225mm,-0.7mm) on Top 
+Rule Violations :1
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.15mm) (Max=1.5mm) (Preferred=0.2mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.175mm) (Conductor Width=0.2mm) (Air Gap=0.2mm) (Entries=4) (All)
+   Violation between Starved Thermal on Ground Plane: Via (15.889mm,-21.055mm) from Top to Bottom. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Ground Plane: Via (16.216mm,-21.734mm) from Top to Bottom. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Ground Plane: Via (17.4mm,-13.5mm) from Top to Bottom. Blocked 3 out of 4 entries.
+Rule Violations :3
+
+Processing Rule : Minimum Annular Ring (Minimum=0.15mm) (((ObjectKind = 'Pad') OR (ObjectKind = 'Via')) And (Layer = 'MultiLayer') And (HoleDiameter > AsMM(0.45)))
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.15mm) (((ObjectKind = 'Pad') OR (ObjectKind = 'Via')) And (Layer = 'MultiLayer') And (HoleDiameter <= AsMM(0.45)))
+   Violation between Minimum Annular Ring: (0.05mm < 0.15mm) Pad U1-V1(-13.785mm,-11.956mm) on Multi-Layer (Annular Ring=0.05mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.05mm < 0.15mm) Pad U1-V3(-12.769mm,-11.956mm) on Multi-Layer (Annular Ring=0.05mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.05mm < 0.15mm) Pad U1-V5(-11.753mm,-11.956mm) on Multi-Layer (Annular Ring=0.05mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (0mm,-3.5mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (-1.5mm,-0.5mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (10.9mm,-2.4mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (-10mm,-4.7mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (11.1mm,-6.1mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (11.1mm,-8mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (-11.6mm,-6.9mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (11.8mm,-13.5mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (-12.3mm,-9.2mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (13.6mm,-5.1mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (-13.8mm,-12.9mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (-14.702mm,-6.426mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (16.5mm,-11mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (17.4mm,-13.5mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (1mm,-4.7mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (-2.7mm,-0.5mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (3.9mm,-4.557mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (-3.9mm,-5.9mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (-3mm,-2.3mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (4.3mm,-1.5mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (4.4mm,-3mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (-5.2mm,-2.2mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (-5.479mm,-4.7mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (5mm,-0.5mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (6.6mm,-0.5mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (-6mm,-5.3mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (-7.1mm,-6.4mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (7.26mm,-1.874mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (-7.689mm,-5.222mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (7.8mm,-10.556mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (-8.007mm,-2.4mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (8.497mm,-8.071mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (-8.4mm,-7.7mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (-8.5mm,-9.6mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (-8.7mm,-5.5mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (-8mm,-0.5mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (9.975mm,-10.85mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.1mm < 0.15mm) Via (-9.9mm,-6.7mm) from Top to Bottom (Annular Ring=0.1mm) On (Top Layer)
+Rule Violations :41
+
+Processing Rule : Hole Size Constraint (Min=0.25mm) (Max=2mm) (All)
+Rule Violations :0
+
+Processing Rule : Pads and Vias to follow the Drill pairs settings
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.35mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.08mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (OnLayer('Bottom'))
+   Violation between Board Outline Clearance(Outline Edge): (0.212mm < 0.25mm) Between Area Fill (-17.675mm,-16.055mm) (-16.356mm,-14.152mm) on Bottom And Board Edge 
+   Violation between Board Outline Clearance(Outline Edge): (0.194mm < 0.25mm) Between Board Edge And Track (4.802mm,-25.276mm)(5.843mm,-25.276mm) on Bottom 
+Rule Violations :2
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (OnLayer('Top'))
+   Violation between Board Outline Clearance(Outline Edge): (0.188mm < 0.25mm) Between Area Fill (0.1mm,-1.2mm) (0.85mm,-0.2mm) on Top And Board Edge 
+   Violation between Board Outline Clearance(Outline Edge): (0.188mm < 0.25mm) Between Area Fill (-1.2mm,-0.7mm) (0.85mm,-0.2mm) on Top And Board Edge 
+   Violation between Board Outline Clearance(Outline Edge): (0.188mm < 0.25mm) Between Area Fill (1.95mm,-1.2mm) (3.4mm,-0.2mm) on Top And Board Edge 
+   Violation between Board Outline Clearance(Outline Edge): (0.188mm < 0.25mm) Between Board Edge And Pad ANT-1(0.575mm,-0.7mm) on Top 
+   Violation between Board Outline Clearance(Outline Edge): (0.188mm < 0.25mm) Between Board Edge And Pad ANT-1(2.225mm,-0.7mm) on Top 
+   Violation between Board Outline Clearance(Outline Edge): (0.163mm < 0.25mm) Between Board Edge And Pad C23-1(12.464mm,-18.5mm) on Top 
+   Violation between Board Outline Clearance(Outline Edge): (0.247mm < 0.25mm) Between Board Edge And Pad C4-1(7.914mm,-21.363mm) on Top 
+   Violation between Board Outline Clearance(Outline Edge): (0.193mm < 0.25mm) Between Board Edge And Pad D3-2(5.466mm,-24.934mm) on Top 
+   Violation between Board Outline Clearance(Outline Edge): (0.082mm < 0.25mm) Between Board Edge And Pad D5-1(-5.479mm,-24.675mm) on Top 
+   Violation between Board Outline Clearance(Outline Edge): (0.04mm < 0.25mm) Between Board Edge And Pad D5-2(-5.954mm,-23.852mm) on Top 
+   Violation between Board Outline Clearance(Outline Edge): (0.21mm < 0.25mm) Between Board Edge And Track (1.898mm,-26.568mm)(2.189mm,-26.277mm) on Top 
+   Violation between Board Outline Clearance(Outline Edge): (0.152mm < 0.25mm) Between Board Edge And Track (-10.178mm,-29.254mm)(-10.178mm,-27.087mm) on Top 
+   Violation between Board Outline Clearance(Outline Edge): (0.207mm < 0.25mm) Between Board Edge And Track (-10.927mm,-26.337mm)(-10.178mm,-27.087mm) on Top 
+   Violation between Board Outline Clearance(Outline Edge): (0.189mm < 0.25mm) Between Board Edge And Track (-15.998mm,-8.476mm)(-15.184mm,-7.661mm) on Top 
+   Violation between Board Outline Clearance(Outline Edge): (0.147mm < 0.25mm) Between Board Edge And Track (-16.086mm,-8.566mm)(-16.004mm,-8.485mm) on Top 
+   Violation between Board Outline Clearance(Outline Edge): (0.147mm < 0.25mm) Between Board Edge And Track (-16.086mm,-9.736mm)(-16.086mm,-8.566mm) on Top 
+   Violation between Board Outline Clearance(Outline Edge): (0.212mm < 0.25mm) Between Board Edge And Track (-17.663mm,-16.637mm)(-17.096mm,-17.203mm) on Top 
+   Violation between Board Outline Clearance(Outline Edge): (0.148mm < 0.25mm) Between Board Edge And Track (-17.691mm,-14.904mm)(-14.942mm,-12.156mm) on Top 
+   Violation between Board Outline Clearance(Outline Edge): (0.147mm < 0.25mm) Between Board Edge And Track (-17.721mm,-15.32mm)(-17.691mm,-14.904mm) on Top 
+   Violation between Board Outline Clearance(Outline Edge): (0.154mm < 0.25mm) Between Board Edge And Track (-17.721mm,-16.578mm)(-17.663mm,-16.637mm) on Top 
+   Violation between Board Outline Clearance(Outline Edge): (0.147mm < 0.25mm) Between Board Edge And Track (-17.721mm,-16.578mm)(-17.721mm,-15.32mm) on Top 
+   Violation between Board Outline Clearance(Outline Edge): (0.21mm < 0.25mm) Between Board Edge And Track (2.189mm,-26.277mm)(2.972mm,-26.277mm) on Top 
+   Violation between Board Outline Clearance(Outline Edge): (0.227mm < 0.25mm) Between Board Edge And Track (5.164mm,-24.914mm)(5.447mm,-24.914mm) on Top 
+Rule Violations :23
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.25mm, Vertical Gap = 0.25mm ) (All),(All) 
+   Violation between Component Clearance Constraint: (Collision < 0.25mm) Between Component clk1-24mhz Creatway clock (-4.567mm,-5.3mm) on Top And SMT Small Component C81-1pF (-6.142mm,-6.426mm) on Top 
+   Violation between Component Clearance Constraint: (Collision < 0.25mm) Between SMT Small Component ANT-Creatway antenna JTW2G44AN1608T80 (1.223mm,-0.72mm) on Top And SMT Small Component L12-10nh (3.75mm,-0.7mm) on Top 
+   Violation between Component Clearance Constraint: (Collision < 0.25mm) Between SMT Small Component ANT-Creatway antenna JTW2G44AN1608T80 (1.223mm,-0.72mm) on Top And SMT Small Component L6-10nh (-1.61mm,-1.874mm) on Top 
+Rule Violations :3
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25mm) (Prefered=12.5mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 500
+Waived Violations : 0
+Time Elapsed        : 00:00:04
